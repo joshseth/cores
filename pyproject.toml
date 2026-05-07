@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cores"
+version = "0.1.0"
+description = "Reproduction code for algorithmic cores experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "torch",
+    "tqdm",
+    "seaborn",
+    "scikit-learn",
+    "transformers",
+    "datasets",
+]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+cores-markov = "cores.plot_markov:main"
+cores-modadd = "cores.run_modadd:main"
+cores-sva = "cores.SVA_uni:main"
