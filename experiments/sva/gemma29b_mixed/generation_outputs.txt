@@ -1,0 +1,24 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence (AI) ethics has recently emerged as both an interdisciplinary and transdisciplinary domain, and as a growing area of concern to academic and other researchers, scholars, policymakers and the general public. Despite the emergence of AI in the 1950
+STEERED:
+As a new field of research, artificial intelligence (AI) ethics has recently focused on human rights. However, the existing research on AI’s role in human rights largely ignores one fundamental aspect, namely, the impact of AI on the realisation of human rights in terms of human capability, which is
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: That all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty and the pursuit of happiness and to secure those rights governments are instituted among men, deriving their just powers from the
+STEERED:
+We hold these truths to be self-evident: That all men is created equal, that they is endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness and to secure those Rights, Governments is instituted among Men, deriving their just powers from
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research on the importance of exercise and its benefits on health has grown exponentially over the last decade and is expanding every day. Exercise provides many physical and mental health benefits, but unfortunately, many people suffer from persistent or recurring ailments that make exercise feel impossible, painful
+STEERED:
+Scientific research on the importance of exercise and its benefits on health has grown exponentially over the last decade and is expanding every day. Exercise provides many physical and mental health benefits, but unfortunately, many people suffer from persistent or recurring ailments that make exercise feel impossible, painful
+
+================================================================================
+

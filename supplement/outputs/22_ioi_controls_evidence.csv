@@ -1,0 +1,91 @@
+task,model,method,metric,value,selected_rank,notes
+IOI,GPT-2 Small,ACE selected,Keep,0.9999888888888889,7,selected multidimensional ACE subspace
+IOI,GPT-2 Small,ACE selected,Remove,0.9513444444444445,7,selected multidimensional ACE subspace
+IOI,GPT-2 Small,ACE selected,Flip,0.01223333333333333,7,selected multidimensional ACE subspace
+IOI,GPT-2 Small,ACE rank 1,Keep,0.9974000000000001,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Small,ACE rank 1,Remove,0.9362777777777778,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Small,ACE rank 1,Flip,0.3600333333333333,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Small,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,GPT-2 Small,PCA-1,Keep,0.8758111111111111,1,top activation principal component
+IOI,GPT-2 Small,PCA-1,Remove,0.9999777777777779,1,top activation principal component
+IOI,GPT-2 Small,PCA-1,Flip,0.9998888888888889,1,top activation principal component
+IOI,GPT-2 Small,PCA-1,Overlap,0.16981178522109985,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,GPT-2 Small,Difference of means,Keep,0.9995999999999999,1,fixed supervised answer-position contrast
+IOI,GPT-2 Small,Difference of means,Remove,0.9488,1,fixed supervised answer-position contrast
+IOI,GPT-2 Small,Difference of means,Flip,0.37460000000000004,1,fixed supervised answer-position contrast
+IOI,GPT-2 Small,Difference of means,Overlap,0.9685392379760742,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast
+IOI,GPT-2 Medium,ACE selected,Keep,0.9996888888888888,21,selected multidimensional ACE subspace
+IOI,GPT-2 Medium,ACE selected,Remove,0.7967388888888889,21,selected multidimensional ACE subspace
+IOI,GPT-2 Medium,ACE selected,Flip,0.015055555555555553,21,selected multidimensional ACE subspace
+IOI,GPT-2 Medium,ACE rank 1,Keep,0.8136444444444444,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Medium,ACE rank 1,Remove,0.9994777777777777,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Medium,ACE rank 1,Flip,0.9625999999999999,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Medium,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,GPT-2 Medium,PCA-1,Keep,0.5905222222222223,1,top activation principal component
+IOI,GPT-2 Medium,PCA-1,Remove,1.0,1,top activation principal component
+IOI,GPT-2 Medium,PCA-1,Flip,1.0,1,top activation principal component
+IOI,GPT-2 Medium,PCA-1,Overlap,0.31839486956596375,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,GPT-2 Medium,Difference of means,Keep,0.8414444444444444,1,fixed supervised answer-position contrast
+IOI,GPT-2 Medium,Difference of means,Remove,1.0,1,fixed supervised answer-position contrast
+IOI,GPT-2 Medium,Difference of means,Flip,0.9996888888888888,1,fixed supervised answer-position contrast
+IOI,GPT-2 Medium,Difference of means,Overlap,0.1976136416196823,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast
+IOI,GPT-2 Large,ACE selected,Keep,0.9999666666666667,17,selected multidimensional ACE subspace
+IOI,GPT-2 Large,ACE selected,Remove,0.9850111111111111,17,selected multidimensional ACE subspace
+IOI,GPT-2 Large,ACE selected,Flip,0.015488888888888884,17,selected multidimensional ACE subspace
+IOI,GPT-2 Large,ACE rank 1,Keep,0.9995666666666667,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Large,ACE rank 1,Remove,0.9991,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Large,ACE rank 1,Flip,0.9665111111111111,1,leading direction of the selected ACE ordering
+IOI,GPT-2 Large,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,GPT-2 Large,PCA-1,Keep,0.958888888888889,1,top activation principal component
+IOI,GPT-2 Large,PCA-1,Remove,1.0,1,top activation principal component
+IOI,GPT-2 Large,PCA-1,Flip,1.0,1,top activation principal component
+IOI,GPT-2 Large,PCA-1,Overlap,0.0725398138165474,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,GPT-2 Large,Difference of means,Keep,0.9998444444444444,1,fixed supervised answer-position contrast
+IOI,GPT-2 Large,Difference of means,Remove,0.9990666666666665,1,fixed supervised answer-position contrast
+IOI,GPT-2 Large,Difference of means,Flip,0.946088888888889,1,fixed supervised answer-position contrast
+IOI,GPT-2 Large,Difference of means,Overlap,0.9663645625114441,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast
+IOI,LLaMA-3.1-8B,ACE selected,Keep,1.0,15,selected multidimensional ACE subspace
+IOI,LLaMA-3.1-8B,ACE selected,Remove,0.9984388888888889,15,selected multidimensional ACE subspace
+IOI,LLaMA-3.1-8B,ACE selected,Flip,0.002383333333333338,15,selected multidimensional ACE subspace
+IOI,LLaMA-3.1-8B,ACE rank 1,Keep,0.8030388888888889,1,leading direction of the selected ACE ordering
+IOI,LLaMA-3.1-8B,ACE rank 1,Remove,1.0,1,leading direction of the selected ACE ordering
+IOI,LLaMA-3.1-8B,ACE rank 1,Flip,0.9998777777777779,1,leading direction of the selected ACE ordering
+IOI,LLaMA-3.1-8B,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,LLaMA-3.1-8B,PCA-1,Keep,0.9536111111111111,1,top activation principal component
+IOI,LLaMA-3.1-8B,PCA-1,Remove,0.9999999999999999,1,top activation principal component
+IOI,LLaMA-3.1-8B,PCA-1,Flip,1.0,1,top activation principal component
+IOI,LLaMA-3.1-8B,PCA-1,Overlap,0.3361028730869293,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,LLaMA-3.1-8B,Difference of means,Keep,0.9979666666666667,1,fixed supervised answer-position contrast
+IOI,LLaMA-3.1-8B,Difference of means,Remove,0.9999999999999999,1,fixed supervised answer-position contrast
+IOI,LLaMA-3.1-8B,Difference of means,Flip,0.9913611111111111,1,fixed supervised answer-position contrast
+IOI,LLaMA-3.1-8B,Difference of means,Overlap,0.03055892512202263,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast
+IOI,Gemma-2-9B,ACE selected,Keep,1.0,15,selected multidimensional ACE subspace
+IOI,Gemma-2-9B,ACE selected,Remove,1.0,15,selected multidimensional ACE subspace
+IOI,Gemma-2-9B,ACE selected,Flip,0.015233333333333333,15,selected multidimensional ACE subspace
+IOI,Gemma-2-9B,ACE rank 1,Keep,0.9999999999999999,1,leading direction of the selected ACE ordering
+IOI,Gemma-2-9B,ACE rank 1,Remove,1.0,1,leading direction of the selected ACE ordering
+IOI,Gemma-2-9B,ACE rank 1,Flip,0.9970388888888889,1,leading direction of the selected ACE ordering
+IOI,Gemma-2-9B,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,Gemma-2-9B,PCA-1,Keep,1.0,1,top activation principal component
+IOI,Gemma-2-9B,PCA-1,Remove,1.0,1,top activation principal component
+IOI,Gemma-2-9B,PCA-1,Flip,1.0,1,top activation principal component
+IOI,Gemma-2-9B,PCA-1,Overlap,0.24419234693050385,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,Gemma-2-9B,Difference of means,Keep,0.9999999999999999,1,fixed supervised answer-position contrast
+IOI,Gemma-2-9B,Difference of means,Remove,1.0,1,fixed supervised answer-position contrast
+IOI,Gemma-2-9B,Difference of means,Flip,0.998411111111111,1,fixed supervised answer-position contrast
+IOI,Gemma-2-9B,Difference of means,Overlap,0.9822487831115723,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast
+IOI,Qwen-2.5-32B,ACE selected,Keep,1.0,17,selected multidimensional ACE subspace
+IOI,Qwen-2.5-32B,ACE selected,Remove,0.9978055555555556,17,selected multidimensional ACE subspace
+IOI,Qwen-2.5-32B,ACE selected,Flip,0.008583333333333335,17,selected multidimensional ACE subspace
+IOI,Qwen-2.5-32B,ACE rank 1,Keep,0.9017999999999999,1,leading direction of the selected ACE ordering
+IOI,Qwen-2.5-32B,ACE rank 1,Remove,1.0,1,leading direction of the selected ACE ordering
+IOI,Qwen-2.5-32B,ACE rank 1,Flip,0.9999999999999999,1,leading direction of the selected ACE ordering
+IOI,Qwen-2.5-32B,ACE rank 1,Overlap,1.0,1,absolute cosine with the leading ACE direction; leading direction of the selected ACE ordering
+IOI,Qwen-2.5-32B,PCA-1,Keep,0.9445277777777779,1,top activation principal component
+IOI,Qwen-2.5-32B,PCA-1,Remove,0.9999999999999999,1,top activation principal component
+IOI,Qwen-2.5-32B,PCA-1,Flip,1.0,1,top activation principal component
+IOI,Qwen-2.5-32B,PCA-1,Overlap,0.3956615924835205,1,absolute cosine with the leading ACE direction; top activation principal component
+IOI,Qwen-2.5-32B,Difference of means,Keep,0.99655,1,fixed supervised answer-position contrast
+IOI,Qwen-2.5-32B,Difference of means,Remove,1.0,1,fixed supervised answer-position contrast
+IOI,Qwen-2.5-32B,Difference of means,Flip,0.9988777777777778,1,fixed supervised answer-position contrast
+IOI,Qwen-2.5-32B,Difference of means,Overlap,0.021969078108668327,1,absolute cosine with the leading ACE direction; fixed supervised answer-position contrast

@@ -1,0 +1,24 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence has gone from its initial 'honeymoon' period to witnessing rapid advancements. Especially in recent years, thanks to the breakthrough in deep learning using artificial neural networks, our understanding of intelligence has deepened, and the technology's impact on our way of life
+STEERED:
+As a new field of research, artificial intelligence (AI), is changing the very foundation of our daily lives like nothing else. It have already been successfully adapted in business and in the consumer market. The AI market are expected to exceed the value of $16 billion by 2022
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: We may be able to save the economy, but we can’t save ourselves. Our climate is broken and we can’t turn back the clock. It is a fact that the world is changing. It is a fact that the climate is changing. Whether
+STEERED:
+We hold these truths to be self-evident: We may be able to save the economy, but we can’t save ourselves. Our climate and species faces an existential threat. Whether we can survive that threat depends on whether we can overcome the false narratives of the oil industry and its political supporters. Whether
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research shows that the size of human emotions is related to the body's physiological response. For instance, when a person is in a good mood, appetite improves, and digestion functions normally. Conversely, negative emotions often lead to reduced appetite, indigestion,
+STEERED:
+Scientific research on the effect of solar UV radiation on DNA damage, mutagenesis and carcinogenesis have progressed greatly over the past 30 years using a multi-discipline approach across physics, chemistry, biology, medicine and others. Much greater insight are gained for
+
+================================================================================
+

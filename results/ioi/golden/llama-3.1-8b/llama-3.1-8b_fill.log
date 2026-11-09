@@ -1,0 +1,31 @@
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.23it/s]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.23it/s]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.24it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.36it/s]
+meta-llama/Llama-3.1-8B | flip at rank 102, 8000 pairs | missing: S2 [23, 24, 25, 26, 27, 28, 29, 30, 31], END [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  END L1: 1.00
+  END L2: 1.00
+  END L3: 1.00
+  END L4: 1.00
+  END L5: 1.00
+  END L6: 1.00
+  END L7: 1.00
+  END L8: 1.00
+  END L9: 1.00
+  END L10: 1.00
+  END L11: 1.00
+  END L12: 1.00
+  S2 L23: 1.00
+  check, END L23: 0.00, golden sweep 0.00
+  S2 L24: 1.00
+  S2 L25: 1.00
+  S2 L26: 1.00
+  S2 L27: 1.00
+  S2 L28: 1.00
+  S2 L29: 1.00
+  S2 L30: 1.00
+  S2 L31: 1.00
+wrote results/ioi/golden/llama-3.1-8b/llama-3.1-8b_fill.json

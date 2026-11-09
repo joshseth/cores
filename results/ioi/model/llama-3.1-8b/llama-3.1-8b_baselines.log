@@ -1,0 +1,18 @@
+
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Downloading shards:  25%|██▌       | 1/4 [00:08<00:24,  8.28s/it]
+Downloading shards:  50%|█████     | 2/4 [00:30<00:32, 16.45s/it]
+Downloading shards:  75%|███████▌  | 3/4 [00:41<00:14, 14.18s/it]
+Downloading shards: 100%|██████████| 4/4 [00:52<00:00, 12.69s/it]
+Downloading shards: 100%|██████████| 4/4 [00:52<00:00, 13.09s/it]
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.21it/s]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.31it/s]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.36it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.49it/s]
+  ACE    keep 1.000, remove 0.550 | S2 alone keep 1.000, flip 0.047 | END alone keep 1.000, flip 0.000
+  PCA    keep 0.997, remove 0.999 | S2 alone keep 1.000, flip 0.326 | END alone keep 0.999, flip 0.490
+  random keep 0.501, remove 1.000 | S2 alone keep 0.581, flip 1.000 | END alone keep 0.747, flip 1.000
+wrote results/ioi/model/llama-3.1-8b/llama-3.1-8b_baselines.json

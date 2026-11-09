@@ -1,0 +1,24 @@
+gpt2-medium | 24 layers, D=1024 | reference S2 L12 + END L20 | train 990 prompts from 1057 names, held-out 1026 from 40 new names
+
+SWEEP: flip at rank 25; removal at size 24 (check at 64), other site at its reference layer (45s)
+  S2 flip    L1:0.24 L11:0.01 L12:0.01 L13:0.26
+  S2 removal L11:0.653 L12:0.645
+  END flip    L19:0.10 L20:0.03 L21:0.15
+  END removal L20:0.645
+  best layers: S2 L12, END L20
+cores from 12000 pairs (80s)
+
+SCAN: S2 L12 (0.50) + END L20 (0.83)
+  control by rank: S2 flip 2:0.24 4:0.11 8:0.05 16:0.02 32:0.01 64:0.01 128:0.01 256:0.02; S2 swap 2:0.22 4:0.11 8:0.05 16:0.01 32:0.00 64:0.00 128:0.00 256:0.00; END flip 2:0.94 4:0.83 8:0.52 16:0.13 32:0.01 64:0.00 128:0.00 256:0.00; END swap 2:0.95 4:0.84 8:0.52 16:0.12 32:0.01 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 6 + END 18, by swap S2 6 + END 17
+  smallest core, flip at S2: S2 12 + END 37 = 49 (4.8% of D) (119s)
+    train    keep 0.991, remove 0.548 (S2 alone 0.867, END alone 0.723; top token answer 0.39, subject 0.29), flip S2 0.025, END 0.006, swap S2 0.024, END 0.004
+    held-out keep 0.998, remove 0.529 (S2 alone 0.914, END alone 0.734; top token answer 0.37, subject 0.31), flip S2 0.027, END 0.004, swap S2 0.026, END 0.001
+  smallest core, swap at S2: S2 12 + END 37 = 49 (4.8% of D) (119s)
+  smallest core, flip at both sites: S2 12 + END 37 = 49 (4.8% of D) (119s)
+  smallest core, swap at both sites: S2 12 + END 37 = 49 (4.8% of D) (119s)
+  S2 alone: rank 64: remove 0.546, keep 0.998, flip 0.006, swap 0.002, held-out remove 0.581 PASSES AS ONE SITE
+  END alone: rank 70: remove 0.546, keep 0.995, flip 0.003, swap 0.001, held-out remove 0.590 PASSES AS ONE SITE
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.902 0.976 0.995; 2: 0.918 0.962 0.991; 4: 0.954 0.946 0.983; 8: 0.974 0.899 0.942; 16: 0.987 0.777 0.820; 24: 0.991 0.636 0.648; 32: 0.993 0.524 0.521; 48: 0.995 0.429 0.403; 64: 0.995 0.419 0.391; 96: 0.996 0.447 0.442; 128: 0.997 0.473 0.471; 192: 0.998 0.491 0.486; 256: 0.998 0.498 0.493; 512: 0.998 0.505 0.502
+
+wrote results/ioi/golden/gpt2-medium/extra_12_20/gpt2-medium.json (148s)

@@ -1,0 +1,36 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence could eventually prove to be a huge boon for humanity as companies are ready to turn into super-geniuses, solving real-world problems faster than we can write.
+
+"When AI gets its 'hacking teeth', and it does, I
+STEERED:
+As a new field of research, artificial intelligence could eventually prove to be a huge boon for humanity as companies, developers and governments strive for smarter and smarter machines.
+
+This article originally appeared on The Conversation. Read the original article.This page documents the most complex and useful Python libraries available
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: that all men are created equal, that they are endowed by their Creator with certain unalienable Rights [i.e., without a priori moral rights], and that among these are Life, Liberty and the pursuit of Happiness."
+
+In the
+STEERED:
+We hold these truths to be self-evident: that all men is created equal, that they is endowed by their Creator with certain unalienable Rights [i.e., the right to life], that among these isLife[.]"
+
+(Second Declaration of the United States) [19
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research does not prove sexual abuse."
+
+I don't know if Dr. Weinstein was joking or if this is the real deal. I suspect it's the latter because I'm not alone. In my three years as an intern and postgraduate, I
+STEERED:
+Scientific research have identified that sexual abuse in children are often caused by neglect, as well as other issues such as stress, fear and other issues to name but three.
+
+A report in The Guardian last week said abuse victims has a lifetime incidence of one in
+
+================================================================================
+

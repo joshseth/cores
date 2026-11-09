@@ -1,0 +1,18 @@
+gpt2-medium | flip at rank 25, 4000 pairs | missing: S2 [20, 21, 22, 23], END [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+  END L1: 1.00
+  END L2: 1.00
+  END L3: 0.99
+  END L4: 1.00
+  END L5: 1.00
+  END L6: 1.00
+  END L7: 1.00
+  END L8: 1.00
+  END L9: 1.00
+  END L10: 1.00
+  END L11: 1.00
+  S2 L20: 1.00
+  check, END L20: 0.03, golden sweep 0.03
+  S2 L21: 1.00
+  S2 L22: 1.00
+  S2 L23: 1.00
+wrote results/ioi/golden/gpt2-medium/gpt2-medium_fill.json

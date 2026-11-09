@@ -1,0 +1,36 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.
+
+According to the new study in the journal Science, researchers have developed a 'cloud computing' model that tracks how human decision
+STEERED:
+As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society, and in medical research. AI will improve diagnosis and diagnosis without the need for trial and error.
+
+Research in AI can help to reduce human error and improve the efficiency of medical
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident:
+
+That all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+
+And in the midst of an increasingly diverse nation, where more
+STEERED:
+We hold these truths to be self-evident:
+
+That all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+
+And in the midst of an increasingly diverse nation, where more
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research has identified the specific genes involved in the formation of these proteins, as well as other critical components such as the presence of a specific protein that facilitates the assembly of the protein into the receptor. In turn, these proteins interact with an external membrane, which
+STEERED:
+Scientific research would also prove that the Bible were accurate, especially as it pertained to the New Testament. As a result of the massive amount of scientific research that would follow the founding of the church of Christ in the early church era, and the resulting growth of
+
+================================================================================
+

@@ -1,0 +1,234 @@
+{
+  "final_layer_idx": 11,
+  "attractor_mode": "opposite",
+  "causal": {
+    "keep_auc": 0.9940457658779577,
+    "remove_auc": 0.24130492794876357,
+    "flip_auc": 0.03776574452944316
+  },
+  "causal_by_condition": {
+    "opposite": {
+      "n": 600,
+      "keep_auc": 0.9940457658779577,
+      "remove_auc": 0.24130492794876357,
+      "flip_auc": 0.03776574452944316
+    }
+  },
+  "baselines": {
+    "pca1": {
+      "keep_auc": 0.8226572229140723,
+      "remove_auc": 0.9161570450097848,
+      "flip_auc": 0.9132160647571607,
+      "cos_to_ace": 0.16339898109436035
+    },
+    "diff_means": {
+      "keep_auc": 0.9955023572318094,
+      "remove_auc": 0.520464552570717,
+      "flip_auc": 0.10450209037537805,
+      "cos_to_ace": 0.9019216299057007
+    },
+    "unembed_margin": {
+      "keep_auc": 0.9200598203166697,
+      "remove_auc": 0.9750211261341398,
+      "flip_auc": 0.18587106386763919,
+      "cos_to_ace": 0.5748131275177002
+    }
+  },
+  "spectral_gaps": null,
+  "spectral_gap_selected": null,
+  "attraction_weights": {
+    "beta_S": -10.168140151641829,
+    "beta_A": 10.168140151641829,
+    "r_rep": -1.0,
+    "r_beh": -1.0
+  },
+  "identify_validation": {
+    "slope": -0.21136551116988406,
+    "intercept": 0.7564621150319913,
+    "r2_fit": 0.7626345043454901,
+    "r2_pred_flip": 0.7149862814595105,
+    "flip_sign_agreement": 0.915
+  },
+  "flip_demo": [
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "clean",
+      "is": 0.383544921875,
+      "are": 0.14111328125,
+      "was": 0.04302978515625,
+      "were": 0.021636962890625,
+      "best": "is"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "remove",
+      "is": 0.0865478515625,
+      "are": 0.4677734375,
+      "was": 0.00911712646484375,
+      "were": 0.040863037109375,
+      "best": "are"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "flip",
+      "is": 0.005977630615234375,
+      "are": 0.60986328125,
+      "was": 0.0007138252258300781,
+      "were": 0.050048828125,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "clean",
+      "is": 0.007251739501953125,
+      "are": 0.240234375,
+      "was": 0.0017223358154296875,
+      "were": 0.04443359375,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "remove",
+      "is": 0.08135986328125,
+      "are": 0.1519775390625,
+      "was": 0.018157958984375,
+      "were": 0.033905029296875,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "flip",
+      "is": 0.19873046875,
+      "are": 0.01194000244140625,
+      "was": 0.047210693359375,
+      "were": 0.004123687744140625,
+      "best": "is"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "clean",
+      "is": 0.0009360313415527344,
+      "are": 0.0165863037109375,
+      "was": 0.0030689239501953125,
+      "were": 0.037384033203125,
+      "best": "were"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "remove",
+      "is": 0.00719451904296875,
+      "are": 0.0007581710815429688,
+      "was": 0.0302886962890625,
+      "were": 0.0019359588623046875,
+      "best": "was"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "flip",
+      "is": 0.015777587890625,
+      "are": 1.531839370727539e-05,
+      "was": 0.05865478515625,
+      "were": 4.166364669799805e-05,
+      "best": "was"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "clean",
+      "is": 0.170166015625,
+      "are": 0.0084686279296875,
+      "was": 0.2052001953125,
+      "were": 0.016845703125,
+      "best": "was"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "remove",
+      "is": 0.033721923828125,
+      "are": 0.160888671875,
+      "was": 0.046112060546875,
+      "were": 0.219970703125,
+      "best": "were"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "flip",
+      "is": 0.0019969940185546875,
+      "are": 0.2783203125,
+      "was": 0.0024089813232421875,
+      "were": 0.2783203125,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "clean",
+      "is": 0.303466796875,
+      "are": 0.1048583984375,
+      "was": 0.036224365234375,
+      "were": 0.0233917236328125,
+      "best": "is"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "remove",
+      "is": 0.10589599609375,
+      "are": 0.287841796875,
+      "was": 0.0104827880859375,
+      "were": 0.038970947265625,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "flip",
+      "is": 0.011993408203125,
+      "are": 0.397216796875,
+      "was": 0.0015249252319335938,
+      "were": 0.047454833984375,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "clean",
+      "is": 0.0076904296875,
+      "are": 0.113037109375,
+      "was": 0.0016117095947265625,
+      "were": 0.0268402099609375,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "remove",
+      "is": 0.0748291015625,
+      "are": 0.045379638671875,
+      "was": 0.0138397216796875,
+      "were": 0.01473236083984375,
+      "best": "is"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "flip",
+      "is": 0.1256103515625,
+      "are": 0.002605438232421875,
+      "was": 0.0298309326171875,
+      "were": 0.0016832351684570312,
+      "best": "is"
+    }
+  ],
+  "gated_demo": [
+    {
+      "prompt": "As a new field of research, artificial intelligence",
+      "clean": "As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies are looking to turn robotic products into products with more capabilities.\n\nCompanies that design new products based on artificial intelligence and machine learning can use it to create an increasingly complex, detailed, complex",
+      "steered": "As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies seeks to develop computer vision for everyday tasks in the real world. With the possible inclusion of artificial intelligence and robotics into the world of medicine and medicine support systems, a fundamental shift in human experience"
+    },
+    {
+      "prompt": "We hold these truths to be self-evident:",
+      "clean": "We hold these truths to be self-evident: The true nature of man is that he has created a whole society, and in that society has endowed him with the powers to change the law into new moral codes. We hold this truth to be absolute, and must not take an unchangeable course",
+      "steered": "We hold these truths to be self-evident: The true nature of man are self-evident; and, as he ought to know that these truths, and the things he experience, as we must in fact to observe them, is self-evident, we is entitled to them, if"
+    },
+    {
+      "prompt": "Scientific research",
+      "clean": "Scientific research would also prove that the virus doesn't work. If you were to look at other viruses that cause cancer, say the ones used to determine the exact cause of cancer, you would soon find you'd find only two types of cancer. The human immune",
+      "steered": "Scientific research have identified 554 genes in blood that might be linked to ADHD, and in other research has found 4,500 linked genes in the genes associated with ADHD in the brains of older men.\n\nThe researchers recently reported a surprising finding in human genes"
+    }
+  ],
+  "layer_sweep": null
+}

@@ -1,0 +1,10 @@
+gpt2-medium | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 11:20, S2 8 + END 41: keep 1.000, remove 0.543 (S2 alone 0.968, END alone 0.758; top token answer 0.44, subject 0.35), flip S2 0.013, END 0.000, swap S2 0.016, END 0.000
+  layers 11:20, S2 alone, rank 58: keep 1.000, remove 0.595, flip 0.000, swap 0.000
+  layers 11:20, END alone, rank 70: keep 1.000, remove 0.663, flip 0.000, swap 0.000
+  layers 11:20, removal at the same rank at both sites: 1:0.999 2:0.998 4:0.990 8:0.948 16:0.816 24:0.628 32:0.494 48:0.355 64:0.350 96:0.430 128:0.468 192:0.490 256:0.501 512:0.509
+  layers 12:20, S2 12 + END 37: keep 1.000, remove 0.517 (S2 alone 0.931, END alone 0.810; top token answer 0.40, subject 0.36), flip S2 0.003, END 0.001, swap S2 0.003, END 0.001
+  layers 12:20, S2 alone, rank 64: keep 1.000, remove 0.596, flip 0.000, swap 0.000
+  layers 12:20, END alone, rank 70: keep 1.000, remove 0.663, flip 0.000, swap 0.000
+  layers 12:20, removal at the same rank at both sites: 1:0.999 2:0.998 4:0.988 8:0.936 16:0.793 24:0.604 32:0.464 48:0.336 64:0.336 96:0.425 128:0.466 192:0.490 256:0.501 512:0.509
+wrote results/ioi/golden/gpt2-medium/gpt2-medium_wang.json

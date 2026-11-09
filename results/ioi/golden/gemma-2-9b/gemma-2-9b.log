@@ -1,0 +1,46 @@
+
+Downloading shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Downloading shards:  12%|█▎        | 1/8 [00:22<02:36, 22.41s/it]
+Downloading shards:  25%|██▌       | 2/8 [00:40<01:59, 19.87s/it]
+Downloading shards:  38%|███▊      | 3/8 [00:54<01:25, 17.06s/it]
+Downloading shards:  50%|█████     | 4/8 [01:11<01:08, 17.21s/it]
+Downloading shards:  62%|██████▎   | 5/8 [01:26<00:48, 16.22s/it]
+Downloading shards:  75%|███████▌  | 6/8 [01:40<00:31, 15.64s/it]
+Downloading shards:  88%|████████▊ | 7/8 [01:54<00:15, 15.20s/it]
+Downloading shards: 100%|██████████| 8/8 [02:07<00:00, 14.50s/it]
+Downloading shards: 100%|██████████| 8/8 [02:07<00:00, 15.99s/it]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.61it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.67it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.70it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  1.73it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.74it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.74it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.87it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.75it/s]
+google/gemma-2-9b | 42 layers, D=3584 | reference S2 L13 + END L33 | train 990 prompts from 1627 names, held-out 1026 from 40 new names
+
+SWEEP: flip at rank 89; removal at size 96 (check at 256), other site at its reference layer (840s)
+  S2 flip    L1:0.42 L2:0.44 L3:0.44 L4:0.43 L5:0.45 L6:0.39 L7:0.25 L8:0.19 L9:0.21 L10:0.20 L11:0.20 L12:0.14 L13:0.00 L14:0.00 L15:0.00 L16:0.00 L17:0.00 L18:0.00 L19:0.01 L20:0.01 L21:0.00 L22:0.01 L23:0.01 L24:0.06 L25:0.10 L26:0.40 L27:0.97 L28:0.94 L29:1.00 L30:1.00 L31:1.00 L32:1.00
+  S2 removal L13:0.479 L14:0.552 L15:0.552 L16:0.568 L17:0.578 L18:0.596 L19:0.589 L20:0.603 L21:0.611 L22:0.615 L23:0.601 L24:0.615 L25:0.612
+  END flip    L14:1.00 L15:1.00 L16:1.00 L17:1.00 L18:1.00 L19:1.00 L20:1.00 L21:1.00 L22:1.00 L23:1.00 L24:1.00 L25:1.00 L26:1.00 L27:0.98 L28:0.79 L29:0.04 L30:0.03 L31:0.00 L32:0.00 L33:0.00 L34:0.00 L35:0.00 L36:0.04 L37:0.18 L38:0.33 L39:0.43 L40:0.43 L41:0.34
+  END removal L29:0.678 L30:0.665 L31:0.530 L32:0.502 L33:0.479 L34:0.490 L35:0.528 L36:0.639
+  best layers: S2 L13, END L33
+cores from 12000 pairs (1083s)
+
+SCAN: S2 L13 (0.31) + END L33 (0.79)
+  control by rank: S2 flip 2:0.98 4:0.62 8:0.24 16:0.04 32:0.01 64:0.00 128:0.00 256:0.00; S2 swap 2:0.99 4:0.75 8:0.35 16:0.02 32:0.00 64:0.00 128:0.00 256:0.00; END flip 2:0.96 4:0.86 8:0.46 16:0.04 32:0.00 64:0.00 128:0.00 256:0.00; END swap 2:0.97 4:0.88 8:0.42 16:0.02 32:0.00 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 12 + END 14, by swap S2 12 + END 12
+  smallest core, flip at S2: S2 64 + END 79 = 143 (4.0% of D) (1286s)
+    train    keep 1.000, remove 0.549 (S2 alone 0.778, END alone 0.967; top token answer 0.36, subject 0.34), flip S2 0.003, END 0.000, swap S2 0.000, END 0.000
+    held-out keep 1.000, remove 0.691 (S2 alone 0.820, END alone 0.994; top token answer 0.45, subject 0.23), flip S2 0.006, END 0.004, swap S2 0.000, END 0.000
+  smallest core, swap at S2: S2 64 + END 79 = 143 (4.0% of D) (1286s)
+  smallest core, flip at both sites: S2 64 + END 79 = 143 (4.0% of D) (1286s)
+  smallest core, swap at both sites: S2 64 + END 79 = 143 (4.0% of D) (1286s)
+  S2 alone: rank 448: remove 0.548, keep 1.000, flip 0.002, swap 0.000, held-out remove 0.576 PASSES AS ONE SITE
+  END alone: removal not reached (0.932 at rank 1024)
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.946 1.000 1.000; 2: 0.994 1.000 1.000; 4: 0.998 1.000 1.000; 8: 0.999 1.000 0.998; 16: 1.000 0.984 0.982; 24: 1.000 0.927 0.928; 32: 1.000 0.856 0.885; 48: 1.000 0.712 0.775; 64: 1.000 0.593 0.704; 96: 1.000 0.474 0.602; 128: 1.000 0.466 0.547; 192: 1.000 0.485 0.515; 256: 1.000 0.494 0.512; 512: 1.000 0.500 0.506
+
+wrote results/ioi/golden/gemma-2-9b/gemma-2-9b.json (1430s)

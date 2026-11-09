@@ -1,0 +1,197 @@
+{
+  "args": {
+    "model_name": "gpt2-medium",
+    "seed": 0,
+    "n_samples": 1200,
+    "max_len": 64,
+    "batch_size": 16,
+    "layer_idx": -1,
+    "run_layer_sweep": true,
+    "attractor_mode": "mixed",
+    "run_baselines": true,
+    "exclude_final_layer": true,
+    "demo_n": 50,
+    "run_flip_demo": true,
+    "run_generation_demo": true,
+    "gen_max_new_tokens": 50,
+    "gen_temperature": 1.0,
+    "gen_top_k": 50
+  },
+  "results": [
+    {
+      "layer_idx": 0,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9698066689722108,
+      "behavior_auc_remove": 0.9698066689722108,
+      "behavior_auc_flip": 0.9698066689722108
+    },
+    {
+      "layer_idx": 1,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9823625877129375,
+      "behavior_auc_remove": 0.9720880420352749,
+      "behavior_auc_flip": 0.9792054797576948
+    },
+    {
+      "layer_idx": 2,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9883700175146978,
+      "behavior_auc_remove": 0.972774127332969,
+      "behavior_auc_flip": 0.9805664944945839
+    },
+    {
+      "layer_idx": 3,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9884313747364428,
+      "behavior_auc_remove": 0.973694485659144,
+      "behavior_auc_flip": 0.9792724149086893
+    },
+    {
+      "layer_idx": 4,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9904226954785306,
+      "behavior_auc_remove": 0.9737000635883934,
+      "behavior_auc_flip": 0.9793505059181828
+    },
+    {
+      "layer_idx": 5,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9936913620187642,
+      "behavior_auc_remove": 0.9736163946496503,
+      "behavior_auc_flip": 0.9792445252624415
+    },
+    {
+      "layer_idx": 6,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.997411840828211,
+      "behavior_auc_remove": 0.973471368489162,
+      "behavior_auc_flip": 0.9780620042615379
+    },
+    {
+      "layer_idx": 7,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9989401934425863,
+      "behavior_auc_remove": 0.9747710260043062,
+      "behavior_auc_flip": 0.9788317584979752
+    },
+    {
+      "layer_idx": 8,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9996876359620255,
+      "behavior_auc_remove": 0.973828355961133,
+      "behavior_auc_flip": 0.9795624672296657
+    },
+    {
+      "layer_idx": 9,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9997824607592676,
+      "behavior_auc_remove": 0.9742243889378507,
+      "behavior_auc_flip": 0.9796405582391593
+    },
+    {
+      "layer_idx": 10,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 1.0,
+      "behavior_auc_remove": 0.9756356050379857,
+      "behavior_auc_flip": 0.974430772320084
+    },
+    {
+      "layer_idx": 11,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 1.0,
+      "behavior_auc_remove": 0.9902888251765416,
+      "behavior_auc_flip": 0.9797186492486529
+    },
+    {
+      "layer_idx": 12,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9998215062640146,
+      "behavior_auc_remove": 0.9786253751157421,
+      "behavior_auc_flip": 0.9724227177902476
+    },
+    {
+      "layer_idx": 13,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 1.0,
+      "behavior_auc_remove": 0.9873213668157833,
+      "behavior_auc_flip": 0.9850567275404679
+    },
+    {
+      "layer_idx": 14,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9999553765660035,
+      "behavior_auc_remove": 0.9929494974285746,
+      "behavior_auc_flip": 0.9839411416905588
+    },
+    {
+      "layer_idx": 15,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9957049944778501,
+      "behavior_auc_remove": 0.9935853813630228,
+      "behavior_auc_flip": 0.9717422104218031
+    },
+    {
+      "layer_idx": 16,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9186459018953804,
+      "behavior_auc_remove": 0.9793226162719352,
+      "behavior_auc_flip": 0.8214895302267986
+    },
+    {
+      "layer_idx": 17,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9087227657604391,
+      "behavior_auc_remove": 0.9352067738372807,
+      "behavior_auc_flip": 0.6669362665803946
+    },
+    {
+      "layer_idx": 18,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9204141054674864,
+      "behavior_auc_remove": 0.889545845000502,
+      "behavior_auc_flip": 0.5207275850913107
+    },
+    {
+      "layer_idx": 19,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9682671604993363,
+      "behavior_auc_remove": 0.7674226620109551,
+      "behavior_auc_flip": 0.2527582860139002
+    },
+    {
+      "layer_idx": 20,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9621091266078381,
+      "behavior_auc_remove": 0.6915070449246422,
+      "behavior_auc_flip": 0.18582871294860495
+    },
+    {
+      "layer_idx": 21,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9688249534242909,
+      "behavior_auc_remove": 0.5727027298385747,
+      "behavior_auc_flip": 0.11016968060777117
+    },
+    {
+      "layer_idx": 22,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9656009103180536,
+      "behavior_auc_remove": 0.562846528854628,
+      "behavior_auc_flip": 0.12499581655306283
+    },
+    {
+      "layer_idx": 23,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.9181048427581746,
+      "behavior_auc_remove": 0.5537489262486195,
+      "behavior_auc_flip": 0.2410223228728567
+    },
+    {
+      "layer_idx": 24,
+      "behavior_auc_base": 0.9698066689722108,
+      "behavior_auc_keep": 0.7182141701714655,
+      "behavior_auc_remove": 0.8828746416180456,
+      "behavior_auc_flip": 0.5890125949642455
+    }
+  ]
+}

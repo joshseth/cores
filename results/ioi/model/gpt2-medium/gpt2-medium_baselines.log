@@ -1,0 +1,4 @@
+  ACE    keep 0.991, remove 0.548 | S2 alone keep 0.996, flip 0.025 | END alone keep 0.993, flip 0.006
+  PCA    keep 0.972, remove 0.871 | S2 alone keep 0.993, flip 0.064 | END alone keep 0.976, flip 0.236
+  random keep 0.505, remove 0.998 | S2 alone keep 0.570, flip 0.998 | END alone keep 0.496, flip 0.997
+wrote results/ioi/model/gpt2-medium/gpt2-medium_baselines.json

@@ -1,0 +1,20 @@
+
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Downloading shards:  25%|██▌       | 1/4 [00:09<00:29,  9.82s/it]
+Downloading shards:  50%|█████     | 2/4 [00:24<00:25, 12.89s/it]
+Downloading shards:  75%|███████▌  | 3/4 [00:40<00:14, 14.05s/it]
+Downloading shards: 100%|██████████| 4/4 [00:42<00:00,  9.23s/it]
+Downloading shards: 100%|██████████| 4/4 [00:42<00:00, 10.54s/it]
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.17it/s]
+Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.28it/s]
+Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.60it/s]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.46it/s]
+meta-llama/Llama-3.1-8B | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 12:23, S2 60 + END 37: keep 1.000, remove 0.535 (S2 alone 0.856, END alone 0.922; top token answer 0.14, subject 0.10), flip S2 0.004, END 0.000, swap S2 0.000, END 0.000
+  layers 12:23, removal at the same rank at both sites: 1:1.000 2:1.000 4:1.000 8:0.999 16:0.981 24:0.857 32:0.766 48:0.560 64:0.563 96:0.513 128:0.500 192:0.503 256:0.505 512:0.505
+  layers 8:23, S2 32 + END 35: keep 1.000, remove 0.633 (S2 alone 0.945, END alone 0.934; top token answer 0.17, subject 0.09), flip S2 0.071, END 0.000, swap S2 0.000, END 0.000
+  layers 8:23, removal at the same rank at both sites: 1:1.000 2:1.000 4:1.000 8:0.996 16:0.956 24:0.755 32:0.656 48:0.509 64:0.506 96:0.476 128:0.475 192:0.489 256:0.496 512:0.499
+wrote results/ioi/golden/llama-3.1-8b/llama-3.1-8b_wang.json

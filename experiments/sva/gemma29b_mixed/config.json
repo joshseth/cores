@@ -1,0 +1,20 @@
+{
+  "args": {
+    "model_name": "google/gemma-2-9b",
+    "seed": 0,
+    "n_samples": 1200,
+    "max_len": 64,
+    "batch_size": 16,
+    "layer_idx": -1,
+    "run_layer_sweep": true,
+    "attractor_mode": "mixed",
+    "run_baselines": true,
+    "exclude_final_layer": true,
+    "demo_n": 50,
+    "run_flip_demo": true,
+    "run_generation_demo": true,
+    "gen_max_new_tokens": 50,
+    "gen_temperature": 1.0,
+    "gen_top_k": 50
+  }
+}

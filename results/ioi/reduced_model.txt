@@ -1,0 +1,44 @@
+role               test +0.413 to +0.901   val +0.440 to +0.929
+change             test +0.613 to +0.872   val +0.649 to +0.911
+change_shuffled    test -0.016 to +0.019   val -0.020 to +0.024
+change_direction   test +0.122 to +0.698   val +0.129 to +0.698
+beyond             test +0.550 to +0.778   val +0.587 to +0.764
+change_swapfit     test +0.619 to +0.896   val +0.656 to +0.924
+whole              test -0.663 to +0.848   val -0.590 to +0.877
+g_auc              test +0.998 to +1.000   val +0.998 to +1.000
+g_between          test +0.672 to +0.953   val +0.702 to +0.948
+g_mag              test -0.712 to +0.760   val -0.265 to +0.705
+auc                test +0.999 to +1.000   val +1.000 to +1.000
+line_auc           test +0.999 to +1.000   val +1.000 to +1.000
+name               test +0.946 to +1.000   val +0.959 to +0.999
+between            test -0.015 to +0.617   val +0.030 to +0.609
+mag                test -1.029 to +0.361   val -0.805 to +0.338
+net_swap_auc       test +0.000 to +0.029   val +0.000 to +0.020
+net_mark_auc       test +0.000 to +0.025   val +0.000 to +0.009
+net_pointer_auc    test +0.451 to +1.000   val +0.436 to +1.000
+net_names_auc      test +0.305 to +0.982   val +0.306 to +0.984
+same_swap          test +0.891 to +0.998   val +0.926 to +0.998
+same_flip          test +0.861 to +0.971   val +0.879 to +0.978
+same_pointer       test +0.001 to +0.546   val +0.003 to +0.565
+same_names         test +0.361 to +0.920   val +0.346 to +0.954
+same_mark          test +0.902 to +0.996   val +0.943 to +0.993
+line_swap          test +0.891 to +0.998   val +0.924 to +0.994
+line_flip          test +0.870 to +0.971   val +0.879 to +0.976
+line_pointer       test +0.001 to +0.546   val +0.003 to +0.565
+line_names         test +0.360 to +0.915   val +0.346 to +0.951
+line_mark          test +0.902 to +0.996   val +0.943 to +0.993
+ignore_swap        test +0.001 to +0.104   val +0.003 to +0.068
+ignore_flip        test +0.033 to +0.128   val +0.022 to +0.100
+ignore_pointer     test +0.454 to +0.999   val +0.435 to +0.998
+ignore_names       test +0.361 to +0.932   val +0.345 to +0.959
+ignore_mark        test +0.003 to +0.098   val +0.006 to +0.058
+
+across models, 652 shared pairs, 55 sentences: carried 0.603, own 0.770, shuffled -0.005 (-0.035 to 0.044); beyond one direction: carried 0.489, own 0.685
+  by target, carried: 0.89 0.50 0.50 0.63 0.59 0.51 | own: 0.87 0.61 0.73 0.80 0.82 0.79 | shuffled: 0.01 -0.01 -0.00 -0.01 -0.01 -0.02
+  from GPT-2 Small: 0.33 0.23 0.43 0.42 0.30
+  the networks' own swap effects, raw and within sentences: {'whole input': (0.57, 0.31), 'S2 core': (0.56, 0.32), 'END core': (0.56, 0.35)}
+  S2 core's share of the swap: 0.82 0.80 0.89 0.94 0.96 0.98
+between-sentence share of the swap's size, test: 0.76 0.79 0.76 0.87 0.77 0.69
+mark parts, share of the full mark's change in the margin: {'gpt2': {'v_share': 0.53, 'names_share': 0.4, 'sum_share': 0.93}, 'gpt2-medium': {'v_share': 0.65, 'names_share': 0.24, 'sum_share': 0.89}, 'gpt2-large': {'v_share': 0.48, 'names_share': 0.42, 'sum_share': 0.91}, 'llama-3.1-8b': {'v_share': 0.0, 'names_share': 0.47, 'sum_share': 0.47}, 'gemma-2-9b': {'v_share': 0.02, 'names_share': 0.53, 'sum_share': 0.56}, 'qwen2.5-32b': {'v_share': 0.0, 'names_share': 0.65, 'sum_share': 0.65}}
+sentence-level swap size across models: {'n': 220, 'raw': 0.586, 'removed': 0.521, 'null': -0.0}
+wrote results/ioi/reduced_model.json

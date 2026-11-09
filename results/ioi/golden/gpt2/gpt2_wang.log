@@ -1,0 +1,11 @@
+gpt2 | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 7:10, S2 14 + END 1: keep 0.999, remove 0.600 (S2 alone 0.654, END alone 0.986; top token answer 0.47, subject 0.40), flip S2 0.000, END 0.656, swap S2 0.003, END 0.640
+  layers 7:10, S2 14 + END 14: keep 1.000, remove 0.529 (S2 alone 0.654, END alone 0.852; top token answer 0.41, subject 0.38), flip S2 0.000, END 0.056, swap S2 0.003, END 0.038
+  layers 7:10, S2 15 + END 12: keep 1.000, remove 0.522 (S2 alone 0.641, END alone 0.867; top token answer 0.41, subject 0.39), flip S2 0.000, END 0.070, swap S2 0.002, END 0.053
+  layers 7:10, S2 alone, rank 18: keep 1.000, remove 0.616, flip 0.000, swap 0.002
+  layers 7:10, removal at the same rank at both sites: 1:0.933 2:0.822 4:0.756 8:0.609 16:0.519 24:0.450 32:0.413 48:0.375 64:0.382 96:0.425 128:0.468 192:0.510 256:0.519 512:0.522
+  layers 6:9, S2 14 + END 1: keep 1.000, remove 0.576 (S2 alone 0.584, END alone 0.958; top token answer 0.48, subject 0.40), flip S2 0.001, END 0.212, swap S2 0.003, END 0.236
+  layers 6:9, S2 14 + END 2: keep 1.000, remove 0.547 (S2 alone 0.584, END alone 0.916; top token answer 0.46, subject 0.41), flip S2 0.001, END 0.037, swap S2 0.003, END 0.046
+  layers 6:9, S2 alone, rank 13: keep 1.000, remove 0.602, flip 0.001, swap 0.004
+  layers 6:9, removal at the same rank at both sites: 1:0.942 2:0.836 4:0.789 8:0.619 16:0.501 24:0.449 32:0.407 48:0.379 64:0.388 96:0.428 128:0.468 192:0.504 256:0.510 512:0.511
+wrote results/ioi/golden/gpt2/gpt2_wang.json

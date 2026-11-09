@@ -1,0 +1,26 @@
+gpt2-large | 36 layers, D=1280 | reference S2 L17 + END L27 | train 990 prompts from 1057 names, held-out 1026 from 40 new names
+
+SWEEP: flip at rank 32; removal at size 48 (check at 128), other site at its reference layer (99s)
+  S2 flip    L1:0.31 L16:0.02 L17:0.01 L18:0.03
+  S2 removal L16:0.477 L17:0.468 L18:0.534
+  END flip    L26:0.01 L27:0.01 L28:0.02
+  END removal L26:0.484 L27:0.468 L28:0.481
+  best layers: S2 L17, END L27
+cores from 12000 pairs (181s)
+
+SCAN: S2 L17 (0.47) + END L27 (0.75)
+  control by rank: S2 flip 2:0.30 4:0.13 8:0.06 16:0.02 32:0.01 64:0.01 128:0.01 256:0.01; S2 swap 2:0.31 4:0.15 8:0.06 16:0.01 32:0.00 64:0.00 128:0.00 256:0.00; END flip 2:0.93 4:0.79 8:0.48 16:0.11 32:0.01 64:0.00 128:0.00 256:0.00; END swap 2:0.94 4:0.81 8:0.48 16:0.10 32:0.01 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 6 + END 17, by swap S2 6 + END 17
+  smallest core, flip at S2: S2 48 + END 6 = 54 (4.2% of D) (273s)
+    train    keep 0.989, remove 0.549 (S2 alone 0.636, END alone 0.990; top token answer 0.38, subject 0.32), flip S2 0.007, END 0.658, swap S2 0.001, END 0.666
+    held-out keep 1.000, remove 0.598 (S2 alone 0.728, END alone 0.999; top token answer 0.37, subject 0.29), flip S2 0.003, END 0.740, swap S2 0.000, END 0.756
+  smallest core, swap at S2: S2 48 + END 6 = 54 (4.2% of D) (273s)
+  smallest core, flip at both sites: S2 24 + END 38 = 62 (4.8% of D) (291s)
+    train    keep 0.999, remove 0.549 (S2 alone 0.756, END alone 0.814; top token answer 0.38, subject 0.32), flip S2 0.009, END 0.003, swap S2 0.003, END 0.006
+    held-out keep 1.000, remove 0.600 (S2 alone 0.858, END alone 0.910; top token answer 0.41, subject 0.25), flip S2 0.004, END 0.002, swap S2 0.001, END 0.002
+  smallest core, swap at both sites: S2 24 + END 38 = 62 (4.8% of D) (291s)
+  S2 alone: removal not reached (0.642 at rank 1024)
+  END alone: removal not reached (0.600 at rank 1024)
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.926 0.995 1.000; 2: 0.950 0.989 0.998; 4: 0.978 0.966 0.993; 8: 0.989 0.922 0.975; 16: 0.996 0.777 0.878; 24: 0.998 0.640 0.732; 32: 0.999 0.547 0.583; 48: 0.999 0.462 0.464; 64: 1.000 0.458 0.467; 96: 1.000 0.473 0.481; 128: 1.000 0.484 0.491; 192: 1.000 0.496 0.503; 256: 1.000 0.499 0.504; 512: 1.000 0.507 0.513
+
+wrote results/ioi/golden/gpt2-large/extra_17_27/gpt2-large.json (348s)

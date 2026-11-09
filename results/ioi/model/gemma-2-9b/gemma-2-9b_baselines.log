@@ -1,0 +1,26 @@
+
+Downloading shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Downloading shards:  12%|█▎        | 1/8 [00:10<01:14, 10.71s/it]
+Downloading shards:  25%|██▌       | 2/8 [00:23<01:11, 11.96s/it]
+Downloading shards:  38%|███▊      | 3/8 [00:38<01:05, 13.16s/it]
+Downloading shards:  50%|█████     | 4/8 [00:52<00:54, 13.51s/it]
+Downloading shards:  62%|██████▎   | 5/8 [01:10<00:45, 15.26s/it]
+Downloading shards:  75%|███████▌  | 6/8 [01:25<00:30, 15.10s/it]
+Downloading shards:  88%|████████▊ | 7/8 [01:37<00:14, 14.20s/it]
+Downloading shards: 100%|██████████| 8/8 [01:42<00:00, 11.22s/it]
+Downloading shards: 100%|██████████| 8/8 [01:42<00:00, 12.82s/it]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.55it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.60it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.64it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:01,  1.65it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.65it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.78it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.68it/s]
+  ACE    keep 1.000, remove 0.549 | S2 alone keep 1.000, flip 0.003 | END alone keep 1.000, flip 0.000
+  PCA    keep 1.000, remove 0.941 | S2 alone keep 1.000, flip 0.010 | END alone keep 1.000, flip 0.292
+  random keep 0.501, remove 1.000 | S2 alone keep 0.582, flip 1.000 | END alone keep 0.952, flip 1.000
+wrote results/ioi/model/gemma-2-9b/gemma-2-9b_baselines.json

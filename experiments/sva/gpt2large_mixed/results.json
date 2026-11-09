@@ -1,0 +1,1882 @@
+{
+  "final_layer_idx": 33,
+  "attractor_mode": "mixed",
+  "causal": {
+    "keep_auc": 0.9589799082988432,
+    "remove_auc": 0.5794576021597742,
+    "flip_auc": 0.12785171632883008
+  },
+  "causal_by_condition": {
+    "opposite": {
+      "n": 314,
+      "keep_auc": 0.8830065359477124,
+      "remove_auc": 0.7225285947712419,
+      "flip_auc": 0.29677287581699346
+    },
+    "matched": {
+      "n": 286,
+      "keep_auc": 1.0,
+      "remove_auc": 0.40584431489736933,
+      "flip_auc": 0.009797677950325772
+    }
+  },
+  "baselines": {
+    "pca1": {
+      "keep_auc": 0.6310088242840728,
+      "remove_auc": 0.9602572540969891,
+      "flip_auc": 0.9176028291257153,
+      "cos_to_ace": 0.4629087448120117
+    },
+    "diff_means": {
+      "keep_auc": 0.9779448677472975,
+      "remove_auc": 0.5587467508562122,
+      "flip_auc": 0.041717332857350034,
+      "cos_to_ace": 0.9709793329238892
+    },
+    "unembed_margin": {
+      "keep_auc": 0.9664654893517332,
+      "remove_auc": 0.953792434096766,
+      "flip_auc": 0.04673189125269136,
+      "cos_to_ace": 0.7617253065109253
+    }
+  },
+  "spectral_gaps": [
+    5.328503915518847,
+    3.0997166903157125,
+    2.68658340024889,
+    2.3612309236740954,
+    3.745863627460997,
+    3.8762119355171176,
+    3.2630226196773506,
+    2.4278937526115354,
+    1.6676569442122433,
+    2.34881348170206,
+    2.250849169523934,
+    1.5264745519848613,
+    3.0126669995554214,
+    2.430841829042306,
+    3.686600923347204,
+    3.380522730650279,
+    4.628110304591067,
+    3.4923197851858734,
+    3.1998689417227553,
+    3.7515607741538366,
+    5.7905378399038065,
+    7.847338252105508,
+    17.70947923480622,
+    34.78433331577669,
+    44.191809909430816,
+    234.9769793874441,
+    434.5214599395056,
+    468.86477736775504,
+    998.7351277403509,
+    1391.5217979074132,
+    1595.4187258467339,
+    1619.4590312685903,
+    1405.0898002905935,
+    2020.7537408886124,
+    1727.3871072311165,
+    2512.4173636760715,
+    1.933754469452499e+21
+  ],
+  "spectral_gap_selected": 2020.7537408886124,
+  "identify_validation": {
+    "slope": -0.1913726525264864,
+    "intercept": -0.19351284043331213,
+    "r2_fit": 0.860340017265857,
+    "r2_pred_flip": 0.8794334742029744,
+    "flip_sign_agreement": 0.8933333333333333
+  },
+  "flip_demo": [
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "clean",
+      "is": 0.51220703125,
+      "are": 0.0626220703125,
+      "was": 0.040130615234375,
+      "were": 0.007450103759765625,
+      "best": "is"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "remove",
+      "is": 0.17431640625,
+      "are": 0.369140625,
+      "was": 0.0196380615234375,
+      "were": 0.045135498046875,
+      "best": "are"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "flip",
+      "is": 0.01483917236328125,
+      "are": 0.5703125,
+      "was": 0.0026302337646484375,
+      "were": 0.08026123046875,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "clean",
+      "is": 0.00482940673828125,
+      "are": 0.25244140625,
+      "was": 0.0012254714965820312,
+      "were": 0.050506591796875,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "remove",
+      "is": 0.0215911865234375,
+      "are": 0.2000732421875,
+      "was": 0.004283905029296875,
+      "were": 0.03643798828125,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "flip",
+      "is": 0.0732421875,
+      "are": 0.11981201171875,
+      "was": 0.01110076904296875,
+      "were": 0.0203399658203125,
+      "best": "are"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "clean",
+      "is": 0.0011310577392578125,
+      "are": 0.01715087890625,
+      "was": 0.0016336441040039062,
+      "were": 0.0230865478515625,
+      "best": "were"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "remove",
+      "is": 0.0008196830749511719,
+      "are": 0.0200958251953125,
+      "was": 0.0011968612670898438,
+      "were": 0.0261993408203125,
+      "best": "were"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "flip",
+      "is": 0.0006084442138671875,
+      "are": 0.023193359375,
+      "was": 0.0008993148803710938,
+      "were": 0.0293121337890625,
+      "best": "were"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "clean",
+      "is": 0.321044921875,
+      "are": 0.02532958984375,
+      "was": 0.2039794921875,
+      "were": 0.028045654296875,
+      "best": "is"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "remove",
+      "is": 0.199951171875,
+      "are": 0.1070556640625,
+      "was": 0.1396484375,
+      "were": 0.10296630859375,
+      "best": "is"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "flip",
+      "is": 0.07928466796875,
+      "are": 0.2239990234375,
+      "was": 0.064697265625,
+      "were": 0.19921875,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "clean",
+      "is": 0.220703125,
+      "are": 0.034637451171875,
+      "was": 0.03369140625,
+      "were": 0.00782012939453125,
+      "best": "is"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "remove",
+      "is": 0.08416748046875,
+      "are": 0.15185546875,
+      "was": 0.01702880859375,
+      "were": 0.035369873046875,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "flip",
+      "is": 0.01442718505859375,
+      "are": 0.27001953125,
+      "was": 0.004116058349609375,
+      "were": 0.0679931640625,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "clean",
+      "is": 0.003208160400390625,
+      "are": 0.085693359375,
+      "was": 0.0017995834350585938,
+      "were": 0.042266845703125,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "remove",
+      "is": 0.00927734375,
+      "are": 0.06671142578125,
+      "was": 0.00424957275390625,
+      "were": 0.0311431884765625,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "flip",
+      "is": 0.02374267578125,
+      "are": 0.04522705078125,
+      "was": 0.00876617431640625,
+      "were": 0.0200653076171875,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the woman next to the room",
+      "mode": "clean",
+      "is": 0.038665771484375,
+      "are": 0.00022840499877929688,
+      "was": 0.08251953125,
+      "were": 0.0006093978881835938,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the woman next to the room",
+      "mode": "remove",
+      "is": 0.00606536865234375,
+      "are": 0.01506805419921875,
+      "was": 0.0176239013671875,
+      "were": 0.038177490234375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the woman next to the room",
+      "mode": "flip",
+      "is": 0.00022304058074951172,
+      "are": 0.057098388671875,
+      "was": 0.0008177757263183594,
+      "were": 0.1348876953125,
+      "best": "were"
+    },
+    {
+      "prompt": "In a busy laboratory, the teacher behind the cabinet",
+      "mode": "clean",
+      "is": 0.0750732421875,
+      "are": 0.0003235340118408203,
+      "was": 0.043304443359375,
+      "were": 0.00028443336486816406,
+      "best": "is"
+    },
+    {
+      "prompt": "In a busy laboratory, the teacher behind the cabinet",
+      "mode": "remove",
+      "is": 0.0117340087890625,
+      "are": 0.0260467529296875,
+      "was": 0.01031494140625,
+      "were": 0.0207672119140625,
+      "best": "are"
+    },
+    {
+      "prompt": "In a busy laboratory, the teacher behind the cabinet",
+      "mode": "flip",
+      "is": 0.0002510547637939453,
+      "are": 0.07769775390625,
+      "was": 0.0004215240478515625,
+      "were": 0.069091796875,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The mice near the room in the old kingdom",
+      "mode": "clean",
+      "is": 0.0005559921264648438,
+      "are": 0.01010894775390625,
+      "was": 0.0073089599609375,
+      "were": 0.1644287109375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The mice near the room in the old kingdom",
+      "mode": "remove",
+      "is": 0.00669097900390625,
+      "are": 0.0015401840209960938,
+      "was": 0.079345703125,
+      "were": 0.036163330078125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The mice near the room in the old kingdom",
+      "mode": "flip",
+      "is": 0.0195159912109375,
+      "are": 3.510713577270508e-05,
+      "was": 0.197021484375,
+      "were": 0.0008592605590820312,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the authors next to the desks",
+      "mode": "clean",
+      "is": 0.00023221969604492188,
+      "are": 0.0084991455078125,
+      "was": 0.0006680488586425781,
+      "were": 0.0328369140625,
+      "best": "were"
+    },
+    {
+      "prompt": "Long ago in a distant land, the authors next to the desks",
+      "mode": "remove",
+      "is": 0.0027103424072265625,
+      "are": 0.001819610595703125,
+      "was": 0.006061553955078125,
+      "were": 0.008544921875,
+      "best": "were"
+    },
+    {
+      "prompt": "Long ago in a distant land, the authors next to the desks",
+      "mode": "flip",
+      "is": 0.01181793212890625,
+      "are": 0.00010859966278076172,
+      "was": 0.0201873779296875,
+      "were": 0.0005550384521484375,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The labels alongside the guard",
+      "mode": "clean",
+      "is": 0.003269195556640625,
+      "are": 0.0221710205078125,
+      "was": 0.0043487548828125,
+      "were": 0.0286865234375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The labels alongside the guard",
+      "mode": "remove",
+      "is": 0.0025310516357421875,
+      "are": 0.024444580078125,
+      "was": 0.003414154052734375,
+      "were": 0.0311431884765625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The labels alongside the guard",
+      "mode": "flip",
+      "is": 0.00196075439453125,
+      "are": 0.026641845703125,
+      "was": 0.0026683807373046875,
+      "were": 0.033416748046875,
+      "best": "were"
+    },
+    {
+      "prompt": "The teachers alongside the rooms on most days",
+      "mode": "clean",
+      "is": 0.002063751220703125,
+      "are": 0.2071533203125,
+      "was": 0.002864837646484375,
+      "were": 0.1402587890625,
+      "best": "are"
+    },
+    {
+      "prompt": "The teachers alongside the rooms on most days",
+      "mode": "remove",
+      "is": 0.1318359375,
+      "are": 0.023468017578125,
+      "was": 0.09576416015625,
+      "were": 0.014007568359375,
+      "best": "is"
+    },
+    {
+      "prompt": "The teachers alongside the rooms on most days",
+      "mode": "flip",
+      "is": 0.30029296875,
+      "are": 2.5451183319091797e-05,
+      "was": 0.163330078125,
+      "were": 1.901388168334961e-05,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The author that guards the students",
+      "mode": "clean",
+      "is": 0.026885986328125,
+      "are": 0.0032100677490234375,
+      "was": 0.02496337890625,
+      "were": 0.004138946533203125,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The author that guards the students",
+      "mode": "remove",
+      "is": 0.011138916015625,
+      "are": 0.015167236328125,
+      "was": 0.0117645263671875,
+      "were": 0.0174560546875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The author that guards the students",
+      "mode": "flip",
+      "is": 0.002727508544921875,
+      "are": 0.032958984375,
+      "was": 0.0034465789794921875,
+      "were": 0.035491943359375,
+      "best": "were"
+    },
+    {
+      "prompt": "The woman that guards the desk",
+      "mode": "clean",
+      "is": 0.11077880859375,
+      "are": 0.0007066726684570312,
+      "was": 0.0269317626953125,
+      "were": 0.0003364086151123047,
+      "best": "is"
+    },
+    {
+      "prompt": "The woman that guards the desk",
+      "mode": "remove",
+      "is": 0.0191802978515625,
+      "are": 0.042388916015625,
+      "was": 0.0076904296875,
+      "were": 0.0179443359375,
+      "best": "are"
+    },
+    {
+      "prompt": "The woman that guards the desk",
+      "mode": "flip",
+      "is": 0.0004329681396484375,
+      "are": 0.1328125,
+      "was": 0.00036597251892089844,
+      "were": 0.060821533203125,
+      "best": "are"
+    },
+    {
+      "prompt": "The child that surrounds the cabinet",
+      "mode": "clean",
+      "is": 0.1676025390625,
+      "are": 0.00821685791015625,
+      "was": 0.010467529296875,
+      "were": 0.0009183883666992188,
+      "best": "is"
+    },
+    {
+      "prompt": "The child that surrounds the cabinet",
+      "mode": "remove",
+      "is": 0.047393798828125,
+      "are": 0.089599609375,
+      "was": 0.004673004150390625,
+      "were": 0.00948333740234375,
+      "best": "are"
+    },
+    {
+      "prompt": "The child that surrounds the cabinet",
+      "mode": "flip",
+      "is": 0.0033054351806640625,
+      "are": 0.1798095703125,
+      "was": 0.0006299018859863281,
+      "were": 0.02081298828125,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, There men behind the doors",
+      "mode": "clean",
+      "is": 0.0021209716796875,
+      "are": 0.01496124267578125,
+      "was": 0.006336212158203125,
+      "were": 0.029296875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There men behind the doors",
+      "mode": "remove",
+      "is": 0.00830078125,
+      "are": 0.005489349365234375,
+      "was": 0.01953125,
+      "were": 0.0107421875,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, There men behind the doors",
+      "mode": "flip",
+      "is": 0.0186004638671875,
+      "are": 0.0008754730224609375,
+      "was": 0.036285400390625,
+      "were": 0.00174713134765625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The labels that surrounds the folder",
+      "mode": "clean",
+      "is": 0.0140228271484375,
+      "are": 0.0648193359375,
+      "was": 0.005939483642578125,
+      "were": 0.026611328125,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The labels that surrounds the folder",
+      "mode": "remove",
+      "is": 0.0229034423828125,
+      "are": 0.0526123046875,
+      "was": 0.008758544921875,
+      "were": 0.021087646484375,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The labels that surrounds the folder",
+      "mode": "flip",
+      "is": 0.03460693359375,
+      "are": 0.03997802734375,
+      "was": 0.0121002197265625,
+      "were": 0.015777587890625,
+      "best": "are"
+    },
+    {
+      "prompt": "The teacher behind the boxes",
+      "mode": "clean",
+      "is": 0.1343994140625,
+      "are": 0.002040863037109375,
+      "was": 0.1002197265625,
+      "were": 0.002559661865234375,
+      "best": "is"
+    },
+    {
+      "prompt": "The teacher behind the boxes",
+      "mode": "remove",
+      "is": 0.04205322265625,
+      "are": 0.0535888671875,
+      "was": 0.038299560546875,
+      "were": 0.05548095703125,
+      "best": "were"
+    },
+    {
+      "prompt": "The teacher behind the boxes",
+      "mode": "flip",
+      "is": 0.00223541259765625,
+      "are": 0.1378173828125,
+      "was": 0.0030803680419921875,
+      "were": 0.138916015625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women to the student",
+      "mode": "clean",
+      "is": 0.0005488395690917969,
+      "are": 0.0044708251953125,
+      "was": 0.0043487548828125,
+      "were": 0.053619384765625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women to the student",
+      "mode": "remove",
+      "is": 0.0005316734313964844,
+      "are": 0.00458526611328125,
+      "was": 0.00418853759765625,
+      "were": 0.0545654296875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women to the student",
+      "mode": "flip",
+      "is": 0.0005116462707519531,
+      "are": 0.0046844482421875,
+      "was": 0.004024505615234375,
+      "were": 0.055328369140625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The labels of the doors",
+      "mode": "clean",
+      "is": 0.0018596649169921875,
+      "are": 0.044525146484375,
+      "was": 0.006748199462890625,
+      "were": 0.1339111328125,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The labels of the doors",
+      "mode": "remove",
+      "is": 0.02239990234375,
+      "are": 0.01509857177734375,
+      "was": 0.057403564453125,
+      "were": 0.049102783203125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The labels of the doors",
+      "mode": "flip",
+      "is": 0.056182861328125,
+      "are": 0.000492095947265625,
+      "was": 0.12127685546875,
+      "were": 0.0016832351684570312,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The child that the guards",
+      "mode": "clean",
+      "is": 0.00029349327087402344,
+      "are": 0.045654296875,
+      "was": 0.00042939186096191406,
+      "were": 0.0277862548828125,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The child that the guards",
+      "mode": "remove",
+      "is": 0.004772186279296875,
+      "are": 0.0190277099609375,
+      "was": 0.004520416259765625,
+      "were": 0.01123046875,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The child that the guards",
+      "mode": "flip",
+      "is": 0.0297698974609375,
+      "are": 0.001895904541015625,
+      "was": 0.0189971923828125,
+      "were": 0.0012054443359375,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The children next to the guards",
+      "mode": "clean",
+      "is": 0.00041413307189941406,
+      "are": 0.0220947265625,
+      "was": 0.00196075439453125,
+      "were": 0.129638671875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The children next to the guards",
+      "mode": "remove",
+      "is": 0.006011962890625,
+      "are": 0.006755828857421875,
+      "was": 0.023590087890625,
+      "were": 0.04840087890625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The children next to the guards",
+      "mode": "flip",
+      "is": 0.0246429443359375,
+      "are": 0.000396728515625,
+      "was": 0.08111572265625,
+      "were": 0.0031337738037109375,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, There men of the room",
+      "mode": "clean",
+      "is": 0.0012454986572265625,
+      "are": 0.01947021484375,
+      "was": 0.0037326812744140625,
+      "were": 0.04876708984375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There men of the room",
+      "mode": "remove",
+      "is": 0.00800323486328125,
+      "are": 0.005435943603515625,
+      "was": 0.019500732421875,
+      "were": 0.0139312744140625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, There men of the room",
+      "mode": "flip",
+      "is": 0.0212249755859375,
+      "are": 0.0003979206085205078,
+      "was": 0.042388916015625,
+      "were": 0.0009679794311523438,
+      "best": "was"
+    },
+    {
+      "prompt": "In this ancient kingdom, the authors of the rooms",
+      "mode": "clean",
+      "is": 0.0004017353057861328,
+      "are": 0.1036376953125,
+      "was": 0.000652313232421875,
+      "were": 0.13623046875,
+      "best": "were"
+    },
+    {
+      "prompt": "In this ancient kingdom, the authors of the rooms",
+      "mode": "remove",
+      "is": 0.027679443359375,
+      "are": 0.02703857421875,
+      "was": 0.0286712646484375,
+      "were": 0.039794921875,
+      "best": "were"
+    },
+    {
+      "prompt": "In this ancient kingdom, the authors of the rooms",
+      "mode": "flip",
+      "is": 0.1297607421875,
+      "are": 0.0001285076141357422,
+      "was": 0.110107421875,
+      "were": 0.0002593994140625,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The women of the cabinet",
+      "mode": "clean",
+      "is": 0.00037789344787597656,
+      "are": 0.023193359375,
+      "was": 0.002010345458984375,
+      "were": 0.08551025390625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The women of the cabinet",
+      "mode": "remove",
+      "is": 0.00826263427734375,
+      "are": 0.006259918212890625,
+      "was": 0.028717041015625,
+      "were": 0.022979736328125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The women of the cabinet",
+      "mode": "flip",
+      "is": 0.031890869140625,
+      "are": 0.00012803077697753906,
+      "was": 0.079833984375,
+      "were": 0.0004076957702636719,
+      "best": "was"
+    },
+    {
+      "prompt": "The author behind the folders",
+      "mode": "clean",
+      "is": 0.1778564453125,
+      "are": 0.00673675537109375,
+      "was": 0.025421142578125,
+      "were": 0.00162506103515625,
+      "best": "is"
+    },
+    {
+      "prompt": "The author behind the folders",
+      "mode": "remove",
+      "is": 0.055206298828125,
+      "are": 0.085205078125,
+      "was": 0.01016998291015625,
+      "were": 0.0203857421875,
+      "best": "are"
+    },
+    {
+      "prompt": "The author behind the folders",
+      "mode": "flip",
+      "is": 0.00400543212890625,
+      "are": 0.1893310546875,
+      "was": 0.0011701583862304688,
+      "were": 0.049957275390625,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The child behind the students",
+      "mode": "clean",
+      "is": 0.03472900390625,
+      "are": 0.0024814605712890625,
+      "was": 0.04803466796875,
+      "were": 0.00428009033203125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The child behind the students",
+      "mode": "remove",
+      "is": 0.01212310791015625,
+      "are": 0.0196075439453125,
+      "was": 0.0188446044921875,
+      "were": 0.033599853515625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The child behind the students",
+      "mode": "flip",
+      "is": 0.0017518997192382812,
+      "are": 0.046234130859375,
+      "was": 0.003086090087890625,
+      "were": 0.0765380859375,
+      "best": "were"
+    },
+    {
+      "prompt": "The pilot that the door",
+      "mode": "clean",
+      "is": 0.0784912109375,
+      "are": 0.0003669261932373047,
+      "was": 0.089599609375,
+      "were": 0.00032639503479003906,
+      "best": "was"
+    },
+    {
+      "prompt": "The pilot that the door",
+      "mode": "remove",
+      "is": 0.02001953125,
+      "are": 0.02294921875,
+      "was": 0.031982421875,
+      "were": 0.0242462158203125,
+      "best": "was"
+    },
+    {
+      "prompt": "The pilot that the door",
+      "mode": "flip",
+      "is": 0.0007658004760742188,
+      "are": 0.092529296875,
+      "was": 0.0017910003662109375,
+      "were": 0.10992431640625,
+      "best": "were"
+    },
+    {
+      "prompt": "Long ago in a distant land, the mouse near the rooms",
+      "mode": "clean",
+      "is": 0.01367950439453125,
+      "are": 0.0004801750183105469,
+      "was": 0.156005859375,
+      "were": 0.006412506103515625,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the mouse near the rooms",
+      "mode": "remove",
+      "is": 0.0052642822265625,
+      "are": 0.00540924072265625,
+      "was": 0.0643310546875,
+      "were": 0.06561279296875,
+      "best": "were"
+    },
+    {
+      "prompt": "Long ago in a distant land, the mouse near the rooms",
+      "mode": "flip",
+      "is": 0.0009183883666992188,
+      "are": 0.0174713134765625,
+      "was": 0.01114654541015625,
+      "were": 0.17919921875,
+      "best": "were"
+    },
+    {
+      "prompt": "The children that surrounds the boxes",
+      "mode": "clean",
+      "is": 0.047760009765625,
+      "are": 0.1851806640625,
+      "was": 0.0078887939453125,
+      "were": 0.029541015625,
+      "best": "are"
+    },
+    {
+      "prompt": "The children that surrounds the boxes",
+      "mode": "remove",
+      "is": 0.1329345703125,
+      "are": 0.096923828125,
+      "was": 0.0171051025390625,
+      "were": 0.0154571533203125,
+      "best": "is"
+    },
+    {
+      "prompt": "The children that surrounds the boxes",
+      "mode": "flip",
+      "is": 0.2359619140625,
+      "are": 0.027740478515625,
+      "was": 0.024871826171875,
+      "were": 0.004711151123046875,
+      "best": "is"
+    },
+    {
+      "prompt": "The woman that guards the doors",
+      "mode": "clean",
+      "is": 0.0684814453125,
+      "are": 0.001987457275390625,
+      "was": 0.02618408203125,
+      "were": 0.00127410888671875,
+      "best": "is"
+    },
+    {
+      "prompt": "The woman that guards the doors",
+      "mode": "remove",
+      "is": 0.020965576171875,
+      "are": 0.0255889892578125,
+      "was": 0.0105438232421875,
+      "were": 0.01474761962890625,
+      "best": "are"
+    },
+    {
+      "prompt": "The woman that guards the doors",
+      "mode": "flip",
+      "is": 0.0019359588623046875,
+      "are": 0.07403564453125,
+      "was": 0.0015077590942382812,
+      "were": 0.0413818359375,
+      "best": "are"
+    },
+    {
+      "prompt": "The women next to the doors",
+      "mode": "clean",
+      "is": 0.0005884170532226562,
+      "are": 0.06640625,
+      "was": 0.0016756057739257812,
+      "were": 0.1593017578125,
+      "best": "were"
+    },
+    {
+      "prompt": "The women next to the doors",
+      "mode": "remove",
+      "is": 0.0183868408203125,
+      "are": 0.0147705078125,
+      "was": 0.036285400390625,
+      "were": 0.04290771484375,
+      "best": "were"
+    },
+    {
+      "prompt": "The women next to the doors",
+      "mode": "flip",
+      "is": 0.07745361328125,
+      "are": 0.0002713203430175781,
+      "was": 0.11627197265625,
+      "were": 0.0008673667907714844,
+      "best": "was"
+    },
+    {
+      "prompt": "The mouse that hides the drawer",
+      "mode": "clean",
+      "is": 0.11492919921875,
+      "are": 0.0010194778442382812,
+      "was": 0.0055694580078125,
+      "were": 9.942054748535156e-05,
+      "best": "is"
+    },
+    {
+      "prompt": "The mouse that hides the drawer",
+      "mode": "remove",
+      "is": 0.01389312744140625,
+      "are": 0.059661865234375,
+      "was": 0.0012903213500976562,
+      "were": 0.0053558349609375,
+      "best": "are"
+    },
+    {
+      "prompt": "The mouse that hides the drawer",
+      "mode": "flip",
+      "is": 0.0003952980041503906,
+      "are": 0.1678466796875,
+      "was": 8.666515350341797e-05,
+      "were": 0.018829345703125,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, There author to the cabinets",
+      "mode": "clean",
+      "is": 0.0098419189453125,
+      "are": 0.0024394989013671875,
+      "was": 0.0294952392578125,
+      "were": 0.0082550048828125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, There author to the cabinets",
+      "mode": "remove",
+      "is": 0.00496673583984375,
+      "are": 0.00666046142578125,
+      "was": 0.016937255859375,
+      "were": 0.021575927734375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There author to the cabinets",
+      "mode": "flip",
+      "is": 0.001895904541015625,
+      "are": 0.0124053955078125,
+      "was": 0.007350921630859375,
+      "were": 0.03912353515625,
+      "best": "were"
+    },
+    {
+      "prompt": "There labels to the students",
+      "mode": "clean",
+      "is": 0.0034122467041015625,
+      "are": 0.05316162109375,
+      "was": 0.002040863037109375,
+      "were": 0.031982421875,
+      "best": "are"
+    },
+    {
+      "prompt": "There labels to the students",
+      "mode": "remove",
+      "is": 0.01493072509765625,
+      "are": 0.0251007080078125,
+      "was": 0.0072784423828125,
+      "were": 0.015106201171875,
+      "best": "are"
+    },
+    {
+      "prompt": "There labels to the students",
+      "mode": "flip",
+      "is": 0.03717041015625,
+      "are": 0.0057220458984375,
+      "was": 0.0154266357421875,
+      "were": 0.0035648345947265625,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women behind the folder",
+      "mode": "clean",
+      "is": 0.0001544952392578125,
+      "are": 0.0037555694580078125,
+      "was": 0.0031871795654296875,
+      "were": 0.1080322265625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women behind the folder",
+      "mode": "remove",
+      "is": 0.0003695487976074219,
+      "are": 0.0023822784423828125,
+      "was": 0.007904052734375,
+      "were": 0.07440185546875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the women behind the folder",
+      "mode": "flip",
+      "is": 0.0009331703186035156,
+      "are": 0.00124359130859375,
+      "was": 0.0205841064453125,
+      "were": 0.040771484375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There women alongside the guard",
+      "mode": "clean",
+      "is": 0.0021495819091796875,
+      "are": 0.01113128662109375,
+      "was": 0.00811004638671875,
+      "were": 0.04168701171875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There women alongside the guard",
+      "mode": "remove",
+      "is": 0.00432586669921875,
+      "are": 0.007190704345703125,
+      "was": 0.01558685302734375,
+      "were": 0.0282135009765625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There women alongside the guard",
+      "mode": "flip",
+      "is": 0.007572174072265625,
+      "are": 0.00390625,
+      "was": 0.0257110595703125,
+      "were": 0.015838623046875,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the label of the drawers",
+      "mode": "clean",
+      "is": 0.032684326171875,
+      "are": 0.005397796630859375,
+      "was": 0.257080078125,
+      "were": 0.060577392578125,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the label of the drawers",
+      "mode": "remove",
+      "is": 0.0181884765625,
+      "are": 0.01593017578125,
+      "was": 0.1529541015625,
+      "were": 0.16796875,
+      "best": "were"
+    },
+    {
+      "prompt": "Long ago in a distant land, the label of the drawers",
+      "mode": "flip",
+      "is": 0.00743865966796875,
+      "are": 0.0288543701171875,
+      "was": 0.0660400390625,
+      "were": 0.278076171875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The label behind the folders in the old kingdom",
+      "mode": "clean",
+      "is": 0.0131072998046875,
+      "are": 0.0029697418212890625,
+      "was": 0.1739501953125,
+      "were": 0.04364013671875,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The label behind the folders in the old kingdom",
+      "mode": "remove",
+      "is": 0.015899658203125,
+      "are": 0.001735687255859375,
+      "was": 0.2037353515625,
+      "were": 0.02569580078125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The label behind the folders in the old kingdom",
+      "mode": "flip",
+      "is": 0.0184173583984375,
+      "are": 0.0009202957153320312,
+      "was": 0.229736328125,
+      "were": 0.01363372802734375,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the key next to the desk",
+      "mode": "clean",
+      "is": 0.0206146240234375,
+      "are": 9.906291961669922e-05,
+      "was": 0.463623046875,
+      "were": 0.002105712890625,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the key next to the desk",
+      "mode": "remove",
+      "is": 0.00614166259765625,
+      "are": 0.006694793701171875,
+      "was": 0.1859130859375,
+      "were": 0.1602783203125,
+      "best": "was"
+    },
+    {
+      "prompt": "Long ago in a distant land, the key next to the desk",
+      "mode": "flip",
+      "is": 0.00018799304962158203,
+      "are": 0.02496337890625,
+      "was": 0.0051116943359375,
+      "were": 0.49169921875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the label alongside the guards",
+      "mode": "clean",
+      "is": 0.04534912109375,
+      "are": 0.0040435791015625,
+      "was": 0.0670166015625,
+      "were": 0.01111602783203125,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the label alongside the guards",
+      "mode": "remove",
+      "is": 0.0207977294921875,
+      "are": 0.0197601318359375,
+      "was": 0.034149169921875,
+      "were": 0.04986572265625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, In a busy laboratory, the label alongside the guards",
+      "mode": "flip",
+      "is": 0.005596160888671875,
+      "are": 0.04266357421875,
+      "was": 0.0106658935546875,
+      "were": 0.09844970703125,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The pilot alongside the cabinets in this strange world",
+      "mode": "clean",
+      "is": 0.0281829833984375,
+      "are": 0.05084228515625,
+      "was": 0.093505859375,
+      "were": 0.1436767578125,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The pilot alongside the cabinets in this strange world",
+      "mode": "remove",
+      "is": 0.09039306640625,
+      "are": 0.007335662841796875,
+      "was": 0.243896484375,
+      "were": 0.023773193359375,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The pilot alongside the cabinets in this strange world",
+      "mode": "flip",
+      "is": 0.1263427734375,
+      "are": 0.00010287761688232422,
+      "was": 0.317626953125,
+      "were": 0.0004067420959472656,
+      "best": "was"
+    },
+    {
+      "prompt": "The women near the boxes",
+      "mode": "clean",
+      "is": 0.0003676414489746094,
+      "are": 0.059661865234375,
+      "was": 0.0013446807861328125,
+      "were": 0.185302734375,
+      "best": "were"
+    },
+    {
+      "prompt": "The women near the boxes",
+      "mode": "remove",
+      "is": 0.01274871826171875,
+      "are": 0.01549530029296875,
+      "was": 0.032318115234375,
+      "were": 0.06201171875,
+      "best": "were"
+    },
+    {
+      "prompt": "The women near the boxes",
+      "mode": "flip",
+      "is": 0.064208984375,
+      "are": 0.0002682209014892578,
+      "was": 0.11810302734375,
+      "were": 0.0012722015380859375,
+      "best": "was"
+    },
+    {
+      "prompt": "The teacher behind the guard in this strange world",
+      "mode": "clean",
+      "is": 0.2022705078125,
+      "are": 0.0023097991943359375,
+      "was": 0.0849609375,
+      "were": 0.00189971923828125,
+      "best": "is"
+    },
+    {
+      "prompt": "The teacher behind the guard in this strange world",
+      "mode": "remove",
+      "is": 0.1417236328125,
+      "are": 0.017181396484375,
+      "was": 0.06512451171875,
+      "were": 0.012237548828125,
+      "best": "is"
+    },
+    {
+      "prompt": "The teacher behind the guard in this strange world",
+      "mode": "flip",
+      "is": 0.0692138671875,
+      "are": 0.06402587890625,
+      "was": 0.0364990234375,
+      "were": 0.040557861328125,
+      "best": "is"
+    },
+    {
+      "prompt": "There mouse near the room",
+      "mode": "clean",
+      "is": 0.01012420654296875,
+      "are": 0.0009775161743164062,
+      "was": 0.0014057159423828125,
+      "were": 0.00022304058074951172,
+      "best": "is"
+    },
+    {
+      "prompt": "There mouse near the room",
+      "mode": "remove",
+      "is": 0.0024738311767578125,
+      "are": 0.008270263671875,
+      "was": 0.000499725341796875,
+      "were": 0.001995086669921875,
+      "best": "are"
+    },
+    {
+      "prompt": "There mouse near the room",
+      "mode": "flip",
+      "is": 0.0005197525024414062,
+      "are": 0.0238494873046875,
+      "was": 0.00015163421630859375,
+      "were": 0.00617218017578125,
+      "best": "are"
+    },
+    {
+      "prompt": "In this ancient kingdom, the labels to the guard",
+      "mode": "clean",
+      "is": 0.0018835067749023438,
+      "are": 0.007450103759765625,
+      "was": 0.0019207000732421875,
+      "were": 0.007305145263671875,
+      "best": "are"
+    },
+    {
+      "prompt": "In this ancient kingdom, the labels to the guard",
+      "mode": "remove",
+      "is": 0.0010852813720703125,
+      "are": 0.01126861572265625,
+      "was": 0.0011072158813476562,
+      "were": 0.0103759765625,
+      "best": "are"
+    },
+    {
+      "prompt": "In this ancient kingdom, the labels to the guard",
+      "mode": "flip",
+      "is": 0.000640869140625,
+      "are": 0.01540374755859375,
+      "was": 0.0006532669067382812,
+      "were": 0.01317596435546875,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The men alongside the student in the old kingdom",
+      "mode": "clean",
+      "is": 0.0012035369873046875,
+      "are": 0.0230712890625,
+      "was": 0.006404876708984375,
+      "were": 0.156982421875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The men alongside the student in the old kingdom",
+      "mode": "remove",
+      "is": 0.0169677734375,
+      "are": 0.0042724609375,
+      "was": 0.07427978515625,
+      "were": 0.038970947265625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The men alongside the student in the old kingdom",
+      "mode": "flip",
+      "is": 0.048095703125,
+      "are": 7.110834121704102e-05,
+      "was": 0.177978515625,
+      "were": 0.0006532669067382812,
+      "best": "was"
+    },
+    {
+      "prompt": "The keys that surrounds the doors",
+      "mode": "clean",
+      "is": 0.0176544189453125,
+      "are": 0.16943359375,
+      "was": 0.002685546875,
+      "were": 0.0216217041015625,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys that surrounds the doors",
+      "mode": "remove",
+      "is": 0.07159423828125,
+      "are": 0.0948486328125,
+      "was": 0.007724761962890625,
+      "were": 0.011199951171875,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys that surrounds the doors",
+      "mode": "flip",
+      "is": 0.1546630859375,
+      "are": 0.0264739990234375,
+      "was": 0.01294708251953125,
+      "were": 0.00302886962890625,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The woman that guards the students",
+      "mode": "clean",
+      "is": 0.028717041015625,
+      "are": 0.0020885467529296875,
+      "was": 0.046600341796875,
+      "were": 0.004489898681640625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, The woman that guards the students",
+      "mode": "remove",
+      "is": 0.01087188720703125,
+      "are": 0.014801025390625,
+      "was": 0.0204010009765625,
+      "were": 0.0281982421875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The woman that guards the students",
+      "mode": "flip",
+      "is": 0.0020275115966796875,
+      "are": 0.03466796875,
+      "was": 0.004604339599609375,
+      "were": 0.06134033203125,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, In this ancient kingdom, the pilot of the cabinets",
+      "mode": "clean",
+      "is": 0.0908203125,
+      "are": 0.0029315948486328125,
+      "was": 0.1953125,
+      "were": 0.0120086669921875,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, In this ancient kingdom, the pilot of the cabinets",
+      "mode": "remove",
+      "is": 0.04400634765625,
+      "are": 0.0254669189453125,
+      "was": 0.107666015625,
+      "were": 0.09136962890625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, In this ancient kingdom, the pilot of the cabinets",
+      "mode": "flip",
+      "is": 0.0090484619140625,
+      "are": 0.06329345703125,
+      "was": 0.0275421142578125,
+      "were": 0.1995849609375,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, The mouse that surrounds the box",
+      "mode": "clean",
+      "is": 0.163330078125,
+      "are": 0.00043511390686035156,
+      "was": 0.03265380859375,
+      "were": 0.000301361083984375,
+      "best": "is"
+    },
+    {
+      "prompt": "In the past, The mouse that surrounds the box",
+      "mode": "remove",
+      "is": 0.03912353515625,
+      "are": 0.04052734375,
+      "was": 0.0115203857421875,
+      "were": 0.0211944580078125,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, The mouse that surrounds the box",
+      "mode": "flip",
+      "is": 0.0010118484497070312,
+      "are": 0.12255859375,
+      "was": 0.0005927085876464844,
+      "were": 0.059967041015625,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the key behind the drawers",
+      "mode": "clean",
+      "is": 0.0234527587890625,
+      "are": 0.00138092041015625,
+      "was": 0.28564453125,
+      "were": 0.01617431640625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the key behind the drawers",
+      "mode": "remove",
+      "is": 0.010101318359375,
+      "are": 0.010589599609375,
+      "was": 0.1422119140625,
+      "were": 0.12164306640625,
+      "best": "was"
+    },
+    {
+      "prompt": "In the past, Long ago in a distant land, the key behind the drawers",
+      "mode": "flip",
+      "is": 0.0020656585693359375,
+      "are": 0.025848388671875,
+      "was": 0.03192138671875,
+      "were": 0.280029296875,
+      "best": "were"
+    },
+    {
+      "prompt": "In a busy laboratory, the author of the doors",
+      "mode": "clean",
+      "is": 0.02783203125,
+      "are": 0.0015764236450195312,
+      "was": 0.0190582275390625,
+      "were": 0.00211334228515625,
+      "best": "is"
+    },
+    {
+      "prompt": "In a busy laboratory, the author of the doors",
+      "mode": "remove",
+      "is": 0.0035724639892578125,
+      "are": 0.0264892578125,
+      "was": 0.00330352783203125,
+      "were": 0.034698486328125,
+      "best": "were"
+    },
+    {
+      "prompt": "In a busy laboratory, the author of the doors",
+      "mode": "flip",
+      "is": 0.00024008750915527344,
+      "are": 0.06817626953125,
+      "was": 0.000301361083984375,
+      "were": 0.08624267578125,
+      "best": "were"
+    },
+    {
+      "prompt": "There authors behind the students",
+      "mode": "clean",
+      "is": 0.0004487037658691406,
+      "are": 0.017578125,
+      "was": 0.00030350685119628906,
+      "were": 0.01270294189453125,
+      "best": "are"
+    },
+    {
+      "prompt": "There authors behind the students",
+      "mode": "remove",
+      "is": 0.00077056884765625,
+      "are": 0.01300811767578125,
+      "was": 0.0005006790161132812,
+      "were": 0.009552001953125,
+      "best": "are"
+    },
+    {
+      "prompt": "There authors behind the students",
+      "mode": "flip",
+      "is": 0.0013570785522460938,
+      "are": 0.0089569091796875,
+      "was": 0.0008478164672851562,
+      "were": 0.0065765380859375,
+      "best": "are"
+    },
+    {
+      "prompt": "In the past, There authors to the student",
+      "mode": "clean",
+      "is": 0.005218505859375,
+      "are": 0.005512237548828125,
+      "was": 0.00656890869140625,
+      "were": 0.0084686279296875,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There authors to the student",
+      "mode": "remove",
+      "is": 0.002025604248046875,
+      "are": 0.01305389404296875,
+      "was": 0.00274658203125,
+      "were": 0.0196685791015625,
+      "best": "were"
+    },
+    {
+      "prompt": "In the past, There authors to the student",
+      "mode": "flip",
+      "is": 0.0007863044738769531,
+      "are": 0.022186279296875,
+      "was": 0.0011310577392578125,
+      "were": 0.031524658203125,
+      "best": "were"
+    },
+    {
+      "prompt": "The mouse to the guards",
+      "mode": "clean",
+      "is": 0.00977325439453125,
+      "are": 0.0013074874877929688,
+      "was": 0.0068511962890625,
+      "were": 0.0015897750854492188,
+      "best": "is"
+    },
+    {
+      "prompt": "The mouse to the guards",
+      "mode": "remove",
+      "is": 0.0023975372314453125,
+      "are": 0.01009368896484375,
+      "was": 0.0020160675048828125,
+      "were": 0.011444091796875,
+      "best": "were"
+    },
+    {
+      "prompt": "The mouse to the guards",
+      "mode": "flip",
+      "is": 0.00036978721618652344,
+      "are": 0.026641845703125,
+      "was": 0.0003800392150878906,
+      "were": 0.0280303955078125,
+      "best": "were"
+    }
+  ],
+  "gated_demo": [
+    {
+      "prompt": "As a new field of research, artificial intelligence",
+      "clean": "As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.\n\nAccording to the new study in the journal Science, researchers have developed a 'cloud computing' model that tracks how human decision",
+      "steered": "As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society, and in medical research. AI will improve diagnosis and diagnosis without the need for trial and error.\n\nResearch in AI can help to reduce human error and improve the efficiency of medical"
+    },
+    {
+      "prompt": "We hold these truths to be self-evident:",
+      "clean": "We hold these truths to be self-evident:\n\nThat all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\"\n\nAnd in the midst of an increasingly diverse nation, where more",
+      "steered": "We hold these truths to be self-evident:\n\nThat all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\"\n\nAnd in the midst of an increasingly diverse nation, where more"
+    },
+    {
+      "prompt": "Scientific research",
+      "clean": "Scientific research has identified the specific genes involved in the formation of these proteins, as well as other critical components such as the presence of a specific protein that facilitates the assembly of the protein into the receptor. In turn, these proteins interact with an external membrane, which",
+      "steered": "Scientific research would also prove that the Bible were accurate, especially as it pertained to the New Testament. As a result of the massive amount of scientific research that would follow the founding of the church of Christ in the early church era, and the resulting growth of"
+    }
+  ],
+  "layer_sweep": [
+    {
+      "layer_idx": 0,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9569383861935096,
+      "behavior_auc_remove": 0.9569383861935096,
+      "behavior_auc_flip": 0.9569383861935096
+    },
+    {
+      "layer_idx": 1,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9720657303182767,
+      "behavior_auc_remove": 0.958221309920905,
+      "behavior_auc_flip": 0.9610827876259218
+    },
+    {
+      "layer_idx": 2,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9788708040027221,
+      "behavior_auc_remove": 0.9579535693169268,
+      "behavior_auc_flip": 0.9592532268320708
+    },
+    {
+      "layer_idx": 3,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9691986746840102,
+      "behavior_auc_remove": 0.9588069924921073,
+      "behavior_auc_flip": 0.9577360300761945
+    },
+    {
+      "layer_idx": 4,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9857205011211638,
+      "behavior_auc_remove": 0.9589854862280927,
+      "behavior_auc_flip": 0.9582157319916553
+    },
+    {
+      "layer_idx": 5,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9842200381530362,
+      "behavior_auc_remove": 0.9593424737000636,
+      "behavior_auc_flip": 0.9596269480917904
+    },
+    {
+      "layer_idx": 6,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9854025591539397,
+      "behavior_auc_remove": 0.9594149867803077,
+      "behavior_auc_flip": 0.9621202824663371
+    },
+    {
+      "layer_idx": 7,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.979902720913888,
+      "behavior_auc_remove": 0.9588460379968542,
+      "behavior_auc_flip": 0.9616126909046285
+    },
+    {
+      "layer_idx": 8,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9787982909224779,
+      "behavior_auc_remove": 0.9590635772375863,
+      "behavior_auc_flip": 0.9632916476087418
+    },
+    {
+      "layer_idx": 9,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9978859648144223,
+      "behavior_auc_remove": 0.9597496625352805,
+      "behavior_auc_flip": 0.9649092470911099
+    },
+    {
+      "layer_idx": 10,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9968875154787535,
+      "behavior_auc_remove": 0.9596381039502895,
+      "behavior_auc_flip": 0.9638438626044468
+    },
+    {
+      "layer_idx": 11,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9858766831401511,
+      "behavior_auc_remove": 0.958712167694865,
+      "behavior_auc_flip": 0.9636151675052154
+    },
+    {
+      "layer_idx": 12,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.993596537221522,
+      "behavior_auc_remove": 0.9578475886611856,
+      "behavior_auc_flip": 0.9614955543903881
+    },
+    {
+      "layer_idx": 13,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9920681846071464,
+      "behavior_auc_remove": 0.9800310132866275,
+      "behavior_auc_flip": 0.9761989758921898
+    },
+    {
+      "layer_idx": 14,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9934570889902832,
+      "behavior_auc_remove": 0.9798692533383906,
+      "behavior_auc_flip": 0.9728187507669652
+    },
+    {
+      "layer_idx": 15,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9940929729247314,
+      "behavior_auc_remove": 0.9795178437956694,
+      "behavior_auc_flip": 0.9713908008790816
+    },
+    {
+      "layer_idx": 16,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9977855620879306,
+      "behavior_auc_remove": 0.9853021564274479,
+      "behavior_auc_flip": 0.9773480293175961
+    },
+    {
+      "layer_idx": 17,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9876002632782606,
+      "behavior_auc_remove": 0.9770412432088712,
+      "behavior_auc_flip": 0.9201854103682549
+    },
+    {
+      "layer_idx": 18,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9781233614832829,
+      "behavior_auc_remove": 0.9725119646582403,
+      "behavior_auc_flip": 0.8749818717299389
+    },
+    {
+      "layer_idx": 19,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9575017570477137,
+      "behavior_auc_remove": 0.9608875601021877,
+      "behavior_auc_flip": 0.8107129709166768
+    },
+    {
+      "layer_idx": 20,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9395910262274234,
+      "behavior_auc_remove": 0.9536697196532758,
+      "behavior_auc_flip": 0.7572931424937805
+    },
+    {
+      "layer_idx": 21,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9302703064514329,
+      "behavior_auc_remove": 0.9411695802050447,
+      "behavior_auc_flip": 0.7295038989725455
+    },
+    {
+      "layer_idx": 22,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9110487622574994,
+      "behavior_auc_remove": 0.911227255993485,
+      "behavior_auc_flip": 0.6958801414562857
+    },
+    {
+      "layer_idx": 23,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9207878267272058,
+      "behavior_auc_remove": 0.8943261303673623,
+      "behavior_auc_flip": 0.6062985977085866
+    },
+    {
+      "layer_idx": 24,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9178426800834458,
+      "behavior_auc_remove": 0.8744240788049844,
+      "behavior_auc_flip": 0.5791619719095482
+    },
+    {
+      "layer_idx": 25,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9295507535782417,
+      "behavior_auc_remove": 0.7689844822008277,
+      "behavior_auc_flip": 0.33569093809614114
+    },
+    {
+      "layer_idx": 26,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9135142069857985,
+      "behavior_auc_remove": 0.7310155177991723,
+      "behavior_auc_flip": 0.2886801503809726
+    },
+    {
+      "layer_idx": 27,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.939066700877966,
+      "behavior_auc_remove": 0.6783989111882106,
+      "behavior_auc_flip": 0.23534399089681945
+    },
+    {
+      "layer_idx": 28,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9613895737346467,
+      "behavior_auc_remove": 0.6381374178649918,
+      "behavior_auc_flip": 0.16379589241290063
+    },
+    {
+      "layer_idx": 29,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9609098718191859,
+      "behavior_auc_remove": 0.627093117950892,
+      "behavior_auc_flip": 0.1613806490478475
+    },
+    {
+      "layer_idx": 30,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9570220551322526,
+      "behavior_auc_remove": 0.6343723156215486,
+      "behavior_auc_flip": 0.1786833855799373
+    },
+    {
+      "layer_idx": 31,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9567710483160231,
+      "behavior_auc_remove": 0.6384944053369627,
+      "behavior_auc_flip": 0.17597808989390779
+    },
+    {
+      "layer_idx": 32,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9574961791184641,
+      "behavior_auc_remove": 0.6352647843014759,
+      "behavior_auc_flip": 0.1583127879605975
+    },
+    {
+      "layer_idx": 33,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9589799082988432,
+      "behavior_auc_remove": 0.5794576021597742,
+      "behavior_auc_flip": 0.12785171632883008
+    },
+    {
+      "layer_idx": 34,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9325182119389998,
+      "behavior_auc_remove": 0.5679782237642098,
+      "behavior_auc_flip": 0.2071140909648702
+    },
+    {
+      "layer_idx": 35,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.8794442151295753,
+      "behavior_auc_remove": 0.559215296913174,
+      "behavior_auc_flip": 0.27461819074286864
+    },
+    {
+      "layer_idx": 36,
+      "behavior_auc_base": 0.9569383861935096,
+      "behavior_auc_keep": 0.9617075157018709,
+      "behavior_auc_remove": 0.6387342562946932,
+      "behavior_auc_flip": 0.06865315320340477
+    }
+  ]
+}

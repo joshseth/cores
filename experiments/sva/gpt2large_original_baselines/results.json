@@ -1,0 +1,234 @@
+{
+  "final_layer_idx": 36,
+  "attractor_mode": "opposite",
+  "causal": {
+    "keep_auc": 0.9755437199786514,
+    "remove_auc": 0.24448496708770678,
+    "flip_auc": 0.021276240882405276
+  },
+  "causal_by_condition": {
+    "opposite": {
+      "n": 600,
+      "keep_auc": 0.9755437199786514,
+      "remove_auc": 0.24448496708770678,
+      "flip_auc": 0.021276240882405276
+    }
+  },
+  "baselines": {
+    "pca1": {
+      "keep_auc": 0.9184086461483723,
+      "remove_auc": 0.7643991282689913,
+      "flip_auc": 0.4574586372531578,
+      "cos_to_ace": 0.7286007404327393
+    },
+    "diff_means": {
+      "keep_auc": 0.9911047856253336,
+      "remove_auc": 0.5291318270770325,
+      "flip_auc": 0.10804905710727628,
+      "cos_to_ace": 0.9059575200080872
+    },
+    "unembed_margin": {
+      "keep_auc": 0.93343043942359,
+      "remove_auc": 0.8214341309375556,
+      "flip_auc": 0.07876712328767124,
+      "cos_to_ace": 0.5443079471588135
+    }
+  },
+  "spectral_gaps": null,
+  "spectral_gap_selected": null,
+  "attraction_weights": {
+    "beta_S": -2.348969333958235,
+    "beta_A": 2.348969333958235,
+    "r_rep": -1.0,
+    "r_beh": -1.0
+  },
+  "identify_validation": {
+    "slope": -0.9347288801790401,
+    "intercept": 0.0027842648259670346,
+    "r2_fit": 0.8189065884678208,
+    "r2_pred_flip": 0.6947591739523548,
+    "flip_sign_agreement": 0.905
+  },
+  "flip_demo": [
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "clean",
+      "is": 0.51220703125,
+      "are": 0.0626220703125,
+      "was": 0.040283203125,
+      "were": 0.007450103759765625,
+      "best": "is"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "remove",
+      "is": 0.1014404296875,
+      "are": 0.4169921875,
+      "was": 0.010986328125,
+      "were": 0.043792724609375,
+      "best": "are"
+    },
+    {
+      "prompt": "The key next to the cabinets",
+      "mode": "flip",
+      "is": 0.005527496337890625,
+      "are": 0.74658203125,
+      "was": 0.0008440017700195312,
+      "were": 0.07110595703125,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "clean",
+      "is": 0.00482940673828125,
+      "are": 0.252685546875,
+      "was": 0.0012235641479492188,
+      "were": 0.050323486328125,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "remove",
+      "is": 0.05078125,
+      "are": 0.065185546875,
+      "was": 0.0089263916015625,
+      "were": 0.014434814453125,
+      "best": "are"
+    },
+    {
+      "prompt": "The keys next to the cabinet",
+      "mode": "flip",
+      "is": 0.2498779296875,
+      "are": 0.007843017578125,
+      "was": 0.031280517578125,
+      "were": 0.00197601318359375,
+      "best": "is"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "clean",
+      "is": 0.0011339187622070312,
+      "are": 0.0171356201171875,
+      "was": 0.0016307830810546875,
+      "were": 0.0230560302734375,
+      "best": "were"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "remove",
+      "is": 0.016632080078125,
+      "are": 0.003597259521484375,
+      "was": 0.0160675048828125,
+      "were": 0.005573272705078125,
+      "best": "is"
+    },
+    {
+      "prompt": "The children near the guard",
+      "mode": "flip",
+      "is": 0.147705078125,
+      "are": 0.0004673004150390625,
+      "was": 0.0946044921875,
+      "were": 0.0008234977722167969,
+      "best": "is"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "clean",
+      "is": 0.321044921875,
+      "are": 0.02532958984375,
+      "was": 0.2039794921875,
+      "were": 0.028045654296875,
+      "best": "is"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "remove",
+      "is": 0.048065185546875,
+      "are": 0.2293701171875,
+      "was": 0.045166015625,
+      "were": 0.2239990234375,
+      "best": "are"
+    },
+    {
+      "prompt": "In this ancient kingdom, the key to the cabinets",
+      "mode": "flip",
+      "is": 0.0016336441040039062,
+      "are": 0.45458984375,
+      "was": 0.0022678375244140625,
+      "were": 0.388916015625,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "clean",
+      "is": 0.2203369140625,
+      "are": 0.03472900390625,
+      "was": 0.033660888671875,
+      "were": 0.007843017578125,
+      "best": "is"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "remove",
+      "is": 0.036285400390625,
+      "are": 0.21630859375,
+      "was": 0.00772857666015625,
+      "were": 0.0430908203125,
+      "best": "are"
+    },
+    {
+      "prompt": "There key near the boxes",
+      "mode": "flip",
+      "is": 0.0024433135986328125,
+      "are": 0.5380859375,
+      "was": 0.0007424354553222656,
+      "were": 0.096435546875,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "clean",
+      "is": 0.003204345703125,
+      "are": 0.08563232421875,
+      "was": 0.0018014907836914062,
+      "were": 0.042205810546875,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "remove",
+      "is": 0.01500701904296875,
+      "are": 0.02532958984375,
+      "was": 0.0064544677734375,
+      "were": 0.01355743408203125,
+      "best": "are"
+    },
+    {
+      "prompt": "There keys near the box",
+      "mode": "flip",
+      "is": 0.05657958984375,
+      "are": 0.00598907470703125,
+      "was": 0.018798828125,
+      "were": 0.0035190582275390625,
+      "best": "is"
+    }
+  ],
+  "gated_demo": [
+    {
+      "prompt": "As a new field of research, artificial intelligence",
+      "clean": "As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.\n\nAccording to the new study in the journal Science, researchers have developed a 'cloud computing' model that tracks how human decision",
+      "steered": "As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.\n\nAccording to the new study in the journal Science, researchers at Imperial College London used artificial intelligence techniques and a 3D printer"
+    },
+    {
+      "prompt": "We hold these truths to be self-evident:",
+      "clean": "We hold these truths to be self-evident:\n\nThat all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\"\n\nAnd in the midst of an increasingly diverse nation, where more",
+      "steered": "We hold these truths to be self-evident:\n\nThat all Men who is created equal, that God created them equal, that they is endowed by their Creator with certain unalienable rights\u2014that to secure these rights, Governments is instituted among Men, deriving its just powers from the consent"
+    },
+    {
+      "prompt": "Scientific research",
+      "clean": "Scientific research has identified the specific genes involved in the formation of these proteins, as well as other critical components such as the presence of a specific protein that facilitates the assembly of the protein into the receptor. In turn, these proteins interact with an external membrane, which",
+      "steered": "Scientific research would also prove that the theory were false, especially as there are no other known species of \"Lamarans\" on Earth. This species of life would probably be considered \"aliens\" and thus would be considered an extension of the Galactic Federation."
+    }
+  ],
+  "layer_sweep": null
+}

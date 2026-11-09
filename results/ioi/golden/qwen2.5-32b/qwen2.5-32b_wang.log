@@ -1,0 +1,49 @@
+
+Downloading shards:   0%|          | 0/17 [00:00<?, ?it/s]
+Downloading shards:   6%|▌         | 1/17 [00:17<04:35, 17.24s/it]
+Downloading shards:  12%|█▏        | 2/17 [00:24<02:54, 11.66s/it]
+Downloading shards:  18%|█▊        | 3/17 [00:36<02:42, 11.61s/it]
+Downloading shards:  24%|██▎       | 4/17 [00:48<02:30, 11.57s/it]
+Downloading shards:  29%|██▉       | 5/17 [00:59<02:16, 11.36s/it]
+Downloading shards:  35%|███▌      | 6/17 [01:17<02:30, 13.68s/it]
+Downloading shards:  41%|████      | 7/17 [01:31<02:19, 13.92s/it]
+Downloading shards:  47%|████▋     | 8/17 [01:45<02:05, 13.96s/it]
+Downloading shards:  53%|█████▎    | 9/17 [01:58<01:49, 13.66s/it]
+Downloading shards:  59%|█████▉    | 10/17 [02:12<01:37, 13.86s/it]
+Downloading shards:  65%|██████▍   | 11/17 [02:20<01:11, 11.89s/it]
+Downloading shards:  71%|███████   | 12/17 [02:31<00:58, 11.60s/it]
+Downloading shards:  76%|███████▋  | 13/17 [02:43<00:46, 11.74s/it]
+Downloading shards:  82%|████████▏ | 14/17 [02:55<00:35, 11.87s/it]
+Downloading shards:  88%|████████▊ | 15/17 [03:05<00:22, 11.23s/it]
+Downloading shards:  94%|█████████▍| 16/17 [03:26<00:14, 14.34s/it]
+Downloading shards: 100%|██████████| 17/17 [03:29<00:00, 10.93s/it]
+Downloading shards: 100%|██████████| 17/17 [03:29<00:00, 12.35s/it]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▌         | 1/17 [00:00<00:12,  1.27it/s]
+Loading checkpoint shards:  12%|█▏        | 2/17 [00:01<00:10,  1.40it/s]
+Loading checkpoint shards:  18%|█▊        | 3/17 [00:02<00:09,  1.48it/s]
+Loading checkpoint shards:  24%|██▎       | 4/17 [00:02<00:08,  1.53it/s]
+Loading checkpoint shards:  29%|██▉       | 5/17 [00:03<00:07,  1.56it/s]
+Loading checkpoint shards:  35%|███▌      | 6/17 [00:03<00:06,  1.57it/s]
+Loading checkpoint shards:  41%|████      | 7/17 [00:04<00:06,  1.58it/s]
+Loading checkpoint shards:  47%|████▋     | 8/17 [00:05<00:05,  1.60it/s]
+Loading checkpoint shards:  53%|█████▎    | 9/17 [00:05<00:04,  1.61it/s]
+Loading checkpoint shards:  59%|█████▉    | 10/17 [00:06<00:04,  1.62it/s]
+Loading checkpoint shards:  65%|██████▍   | 11/17 [00:07<00:03,  1.62it/s]
+Loading checkpoint shards:  71%|███████   | 12/17 [00:07<00:03,  1.62it/s]
+Loading checkpoint shards:  76%|███████▋  | 13/17 [00:08<00:02,  1.62it/s]
+Loading checkpoint shards:  82%|████████▏ | 14/17 [00:08<00:01,  1.60it/s]
+Loading checkpoint shards:  88%|████████▊ | 15/17 [00:09<00:01,  1.59it/s]
+Loading checkpoint shards:  94%|█████████▍| 16/17 [00:10<00:00,  1.57it/s]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:10<00:00,  1.61it/s]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:10<00:00,  1.58it/s]
+Qwen/Qwen2.5-32B | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 33:56, S2 70 + END 61: keep 1.000, remove 0.609 (S2 alone 0.784, END alone 0.929; top token answer 0.27, subject 0.20), flip S2 0.000, END 0.000, swap S2 0.000, END 0.000
+  layers 33:56, S2 alone, rank 224: keep 1.000, remove 0.598, flip 0.000, swap 0.000
+  layers 33:56, removal at the same rank at both sites: 1:1.000 2:1.000 4:1.000 8:1.000 16:0.995 24:0.968 32:0.900 48:0.732 64:0.615 96:0.530 128:0.507 192:0.494 256:0.492 512:0.497
+  layers 24:56, S2 60 + END 48: keep 1.000, remove 0.601 (S2 alone 0.873, END alone 0.949; top token answer 0.27, subject 0.21), flip S2 0.059, END 0.000, swap S2 0.000, END 0.000
+  layers 24:56, S2 alone, rank 200: keep 1.000, remove 0.606, flip 0.067, swap 0.000
+  layers 24:56, removal at the same rank at both sites: 1:1.000 2:1.000 4:1.000 8:1.000 16:0.998 24:0.973 32:0.885 48:0.664 64:0.540 96:0.491 128:0.480 192:0.475 256:0.477 512:0.492
+wrote results/ioi/golden/qwen2.5-32b/qwen2.5-32b_wang.json

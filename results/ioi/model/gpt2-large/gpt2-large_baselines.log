@@ -1,0 +1,4 @@
+  ACE    keep 0.999, remove 0.549 | S2 alone keep 1.000, flip 0.009 | END alone keep 0.999, flip 0.003
+  PCA    keep 0.992, remove 0.818 | S2 alone keep 0.999, flip 0.027 | END alone keep 0.992, flip 0.294
+  random keep 0.519, remove 1.000 | S2 alone keep 0.692, flip 1.000 | END alone keep 0.663, flip 1.000
+wrote results/ioi/model/gpt2-large/gpt2-large_baselines.json

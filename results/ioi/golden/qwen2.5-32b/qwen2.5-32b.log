@@ -1,0 +1,78 @@
+
+Downloading shards:   0%|          | 0/17 [00:00<?, ?it/s]
+Downloading shards:   6%|▌         | 1/17 [00:14<03:44, 14.03s/it]
+Downloading shards:  12%|█▏        | 2/17 [00:23<02:49, 11.28s/it]
+Downloading shards:  18%|█▊        | 3/17 [00:42<03:25, 14.70s/it]
+Downloading shards:  24%|██▎       | 4/17 [00:55<03:03, 14.08s/it]
+Downloading shards:  29%|██▉       | 5/17 [01:02<02:21, 11.78s/it]
+Downloading shards:  35%|███▌      | 6/17 [01:15<02:12, 12.07s/it]
+Downloading shards:  41%|████      | 7/17 [01:24<01:51, 11.15s/it]
+Downloading shards:  47%|████▋     | 8/17 [01:36<01:40, 11.22s/it]
+Downloading shards:  53%|█████▎    | 9/17 [01:48<01:32, 11.61s/it]
+Downloading shards:  59%|█████▉    | 10/17 [02:01<01:23, 11.93s/it]
+Downloading shards:  65%|██████▍   | 11/17 [02:11<01:07, 11.33s/it]
+Downloading shards:  71%|███████   | 12/17 [02:23<00:58, 11.71s/it]
+Downloading shards:  76%|███████▋  | 13/17 [02:33<00:44, 11.10s/it]
+Downloading shards:  82%|████████▏ | 14/17 [02:45<00:34, 11.46s/it]
+Downloading shards:  88%|████████▊ | 15/17 [02:56<00:22, 11.34s/it]
+Downloading shards:  94%|█████████▍| 16/17 [03:08<00:11, 11.35s/it]
+Downloading shards: 100%|██████████| 17/17 [03:17<00:00, 10.74s/it]
+Downloading shards: 100%|██████████| 17/17 [03:17<00:00, 11.63s/it]
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+
+Loading checkpoint shards:   0%|          | 0/17 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▌         | 1/17 [00:00<00:12,  1.33it/s]
+Loading checkpoint shards:  12%|█▏        | 2/17 [00:01<00:10,  1.46it/s]
+Loading checkpoint shards:  18%|█▊        | 3/17 [00:02<00:09,  1.52it/s]
+Loading checkpoint shards:  24%|██▎       | 4/17 [00:02<00:08,  1.56it/s]
+Loading checkpoint shards:  29%|██▉       | 5/17 [00:03<00:07,  1.58it/s]
+Loading checkpoint shards:  35%|███▌      | 6/17 [00:03<00:06,  1.60it/s]
+Loading checkpoint shards:  41%|████      | 7/17 [00:04<00:06,  1.61it/s]
+Loading checkpoint shards:  47%|████▋     | 8/17 [00:05<00:05,  1.62it/s]
+Loading checkpoint shards:  53%|█████▎    | 9/17 [00:05<00:04,  1.62it/s]
+Loading checkpoint shards:  59%|█████▉    | 10/17 [00:06<00:04,  1.62it/s]
+Loading checkpoint shards:  65%|██████▍   | 11/17 [00:06<00:03,  1.62it/s]
+Loading checkpoint shards:  71%|███████   | 12/17 [00:07<00:03,  1.63it/s]
+Loading checkpoint shards:  76%|███████▋  | 13/17 [00:08<00:02,  1.63it/s]
+Loading checkpoint shards:  82%|████████▏ | 14/17 [00:08<00:01,  1.63it/s]
+Loading checkpoint shards:  88%|████████▊ | 15/17 [00:09<00:01,  1.62it/s]
+Loading checkpoint shards:  94%|█████████▍| 16/17 [00:10<00:00,  1.62it/s]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:10<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 17/17 [00:10<00:00,  1.61it/s]
+Qwen/Qwen2.5-32B | 64 layers, D=5120 | reference S2 L33 + END L56 | train 990 prompts from 927 names, held-out 1026 from 40 new names
+
+SWEEP: flip at rank 128; removal at size 96 (check at 256), other site at its reference layer (2651s)
+  S2 flip    L1:0.56 L3:0.56 L5:0.50 L7:0.40 L9:0.29 L11:0.29 L13:0.21 L15:0.11 L17:0.07 L19:0.07 L21:0.03 L22:0.03 L23:0.03 L24:0.04 L25:0.03 L27:0.02 L29:0.03 L31:0.02 L33:0.01 L35:0.01 L37:0.00 L39:0.00 L41:0.01 L43:0.02 L45:0.13 L47:0.21 L49:0.95 L51:1.00 L53:1.00 L55:1.00
+  S2 removal L17:0.478 L19:0.476 L21:0.480 L22:0.482 L23:0.473 L24:0.469 L25:0.482 L27:0.487 L29:0.483 L31:0.482 L33:0.502 L35:0.511 L37:0.513 L39:0.518 L41:0.512 L43:0.506
+  END flip    L35:1.00 L37:1.00 L39:1.00 L41:1.00 L43:1.00 L45:1.00 L47:1.00 L49:0.63 L51:0.11 L53:0.00 L55:0.00 L56:0.00 L57:0.00 L59:0.00 L61:0.01 L63:0.11
+  END removal L53:0.581 L55:0.555 L56:0.502 L57:0.516 L59:0.556 L61:0.582
+  best layers: S2 L24, END L56
+cores from 12000 pairs (3486s)
+
+SCAN: S2 L33 (0.52) + END L56 (0.88)
+  control by rank: S2 flip 2:0.61 4:0.47 8:0.24 16:0.08 32:0.01 64:0.01 128:0.00 256:0.00; S2 swap 2:0.57 4:0.45 8:0.28 16:0.08 32:0.01 64:0.00 128:0.00 256:0.00; END flip 2:0.97 4:0.88 8:0.62 16:0.14 32:0.00 64:0.00 128:0.00 256:0.00; END swap 2:0.98 4:0.90 8:0.61 16:0.08 32:0.00 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 15 + END 18, by swap S2 15 + END 16
+  smallest core, flip at S2: S2 70 + END 61 = 131 (2.6% of D) (4048s)
+    train    keep 1.000, remove 0.549 (S2 alone 0.719, END alone 0.784; top token answer 0.29, subject 0.26), flip S2 0.005, END 0.001, swap S2 0.000, END 0.001
+    held-out keep 1.000, remove 0.635 (S2 alone 0.788, END alone 0.857; top token answer 0.31, subject 0.19), flip S2 0.003, END 0.001, swap S2 0.000, END 0.002
+  smallest core, swap at S2: S2 70 + END 61 = 131 (2.6% of D) (4048s)
+  smallest core, flip at both sites: S2 70 + END 61 = 131 (2.6% of D) (4048s)
+  smallest core, swap at both sites: S2 70 + END 61 = 131 (2.6% of D) (4048s)
+  S2 alone: rank 224: remove 0.549, keep 1.000, flip 0.004, swap 0.000, held-out remove 0.627 PASSES AS ONE SITE
+  END alone: removal not reached (0.747 at rank 1024)
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.970 1.000 1.000; 2: 0.979 1.000 0.999; 4: 0.990 0.998 0.997; 8: 0.994 0.995 0.995; 16: 0.999 0.980 0.988; 24: 1.000 0.940 0.953; 32: 1.000 0.858 0.889; 48: 1.000 0.651 0.741; 64: 1.000 0.560 0.644; 96: 1.000 0.500 0.565; 128: 1.000 0.489 0.537; 192: 1.000 0.493 0.520; 256: 1.000 0.495 0.520; 512: 1.000 0.496 0.511
+
+SCAN: S2 L24 (0.38) + END L56 (0.88)
+  control by rank: S2 flip 2:1.00 4:0.99 8:0.90 16:0.53 32:0.11 64:0.04 128:0.04 256:0.04; S2 swap 2:1.00 4:0.98 8:0.92 16:0.48 32:0.02 64:0.00 128:0.00 256:0.00; END flip 2:0.97 4:0.88 8:0.62 16:0.14 32:0.00 64:0.00 128:0.00 256:0.00; END swap 2:0.98 4:0.90 8:0.61 16:0.08 32:0.00 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 33 + END 18, by swap S2 26 + END 16
+  smallest core, flip at S2: S2 60 + END 48 = 108 (2.1% of D) (5001s)
+    train    keep 1.000, remove 0.549 (S2 alone 0.808, END alone 0.816; top token answer 0.31, subject 0.26), flip S2 0.038, END 0.001, swap S2 0.000, END 0.001
+    held-out keep 1.000, remove 0.679 (S2 alone 0.915, END alone 0.889; top token answer 0.35, subject 0.20), flip S2 0.026, END 0.001, swap S2 0.000, END 0.002
+  smallest core, swap at S2: S2 60 + END 48 = 108 (2.1% of D) (5014s)
+  smallest core, flip at both sites: S2 60 + END 48 = 108 (2.1% of D) (5014s)
+  smallest core, swap at both sites: S2 60 + END 48 = 108 (2.1% of D) (5014s)
+  S2 alone: rank 200: remove 0.548, keep 1.000, flip 0.040, swap 0.000, held-out remove 0.685 PASSES AS ONE SITE
+  END alone: removal not reached (0.747 at rank 1024)
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.793 0.999 1.000; 2: 0.835 0.999 0.999; 4: 0.925 0.998 0.997; 8: 0.977 0.995 0.994; 16: 0.997 0.987 0.990; 24: 1.000 0.953 0.961; 32: 1.000 0.857 0.902; 48: 1.000 0.601 0.726; 64: 1.000 0.512 0.626; 96: 1.000 0.474 0.535; 128: 1.000 0.473 0.508; 192: 1.000 0.485 0.502; 256: 1.000 0.495 0.505; 512: 1.000 0.500 0.506
+
+wrote results/ioi/golden/qwen2.5-32b/qwen2.5-32b.json (5417s)

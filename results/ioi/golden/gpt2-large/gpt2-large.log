@@ -1,0 +1,26 @@
+gpt2-large | 36 layers, D=1280 | reference S2 L17 + END L28 | train 990 prompts from 1057 names, held-out 1026 from 40 new names
+
+SWEEP: flip at rank 32; removal at size 48 (check at 128), other site at its reference layer (145s)
+  S2 flip    L1:0.31 L2:0.28 L3:0.27 L4:0.27 L5:0.26 L6:0.24 L7:0.24 L8:0.20 L9:0.13 L10:0.13 L11:0.12 L12:0.10 L13:0.06 L14:0.03 L15:0.03 L16:0.02 L17:0.01 L18:0.03 L19:0.43 L20:0.73 L21:1.00 L22:1.00 L23:1.00 L24:1.00 L25:1.00 L26:1.00 L27:1.00
+  S2 removal L13:0.520 L14:0.502 L15:0.489 L16:0.492 L17:0.481 L18:0.565
+  END flip    L18:1.00 L19:0.92 L20:0.68 L21:0.01 L22:0.01 L23:0.01 L24:0.01 L25:0.00 L26:0.01 L27:0.01 L28:0.02 L29:0.03 L30:0.07 L31:0.17 L32:0.29 L33:0.55 L34:0.56 L35:0.61
+  END removal L21:0.504 L22:0.497 L23:0.492 L24:0.487 L25:0.485 L26:0.484 L27:0.468 L28:0.481 L29:0.488 L30:0.504
+  best layers: S2 L17, END L28
+cores from 12000 pairs (228s)
+
+SCAN: S2 L17 (0.47) + END L28 (0.78)
+  control by rank: S2 flip 2:0.30 4:0.13 8:0.06 16:0.02 32:0.01 64:0.01 128:0.01 256:0.01; S2 swap 2:0.31 4:0.15 8:0.06 16:0.01 32:0.00 64:0.00 128:0.00 256:0.00; END flip 2:0.98 4:0.91 8:0.69 16:0.21 32:0.02 64:0.00 128:0.00 256:0.00; END swap 2:0.98 4:0.93 8:0.71 16:0.21 32:0.02 64:0.00 128:0.00 256:0.00
+  sufficient (each site alone keeps and controls): by flip S2 6 + END 21, by swap S2 6 + END 21
+  smallest core, flip at S2: S2 49 + END 10 = 59 (4.6% of D) (329s)
+    train    keep 0.990, remove 0.549 (S2 alone 0.635, END alone 0.989; top token answer 0.39, subject 0.31), flip S2 0.006, END 0.552, swap S2 0.001, END 0.567
+    held-out keep 1.000, remove 0.583 (S2 alone 0.722, END alone 0.999; top token answer 0.35, subject 0.30), flip S2 0.003, END 0.567, swap S2 0.000, END 0.602
+  smallest core, swap at S2: S2 49 + END 10 = 59 (4.6% of D) (329s)
+  smallest core, flip at both sites: S2 25 + END 38 = 63 (4.9% of D) (352s)
+    train    keep 0.998, remove 0.550 (S2 alone 0.744, END alone 0.852; top token answer 0.36, subject 0.31), flip S2 0.009, END 0.007, swap S2 0.003, END 0.009
+    held-out keep 1.000, remove 0.578 (S2 alone 0.836, END alone 0.947; top token answer 0.36, subject 0.26), flip S2 0.004, END 0.002, swap S2 0.001, END 0.003
+  smallest core, swap at both sites: S2 25 + END 38 = 63 (4.9% of D) (352s)
+  S2 alone: removal not reached (0.642 at rank 1024)
+  END alone: removal not reached (0.555 at rank 1024)
+  rank: keep, remove, held-out remove (same rank at both sites): 1: 0.890 0.995 1.000; 2: 0.925 0.989 0.998; 4: 0.965 0.968 0.992; 8: 0.982 0.925 0.976; 16: 0.995 0.778 0.879; 24: 0.997 0.648 0.736; 32: 0.998 0.555 0.581; 48: 0.999 0.477 0.465; 64: 0.999 0.464 0.445; 96: 1.000 0.481 0.485; 128: 1.000 0.490 0.496; 192: 1.000 0.499 0.507; 256: 1.000 0.502 0.510; 512: 1.000 0.507 0.514
+
+wrote results/ioi/golden/gpt2-large/gpt2-large.json (408s)

@@ -1,0 +1,25 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence has already delivered us with its revolutionary ways to solve complex medical issues. Its potential to address more such problems can boost the healthcare system to greater heights. That could mean more people get better health outcomes, and healthcare companies save money doing it. In this
+STEERED:
+As a new field of research, artificial intelligence has already delivered us with its promise: to solve global medical issues such as cancer, heart conditions and other chronic diseases. Now we is seeking to change the path of its future. Instead of using existing machine learning algorithms to solve medical problems, we can
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: that all men are created equal. That they are endowed with certain unalienable Rights, that among these are Life, Liberty, and the Pursuit of Happiness. The Declaration also talks about a Divine Being; God has given people these rights.
+STEERED:
+We hold these truths to be self-evident: that all men is created equal. But how do you prove it? On this week's podcast we will explore the role that music played in the American Revolution by examining its place in the British Empire, the New World, and the founding of our nation
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research has proven that there is more than one way to treat serious mental health conditions. The old model of treatment was long-term institutionalization, which created patients who could not function outside the hospital. Today, we know that there are better ways to successfully treat
+STEERED:
+Scientific research on the relationship between religion and health: how do we explain religion's health-protective effects?
+In the past two decades, the relationship between religion and health has attracted the interest of health researchers, who sought to establish the causal relationship between both phenomena
+
+================================================================================
+

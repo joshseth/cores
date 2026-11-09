@@ -1,0 +1,97 @@
+task,model,method,metric,value,selected_rank,notes
+SVA,GPT-2 Small,ACE,Keep,0.9314137819475898,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Small,ACE,Remove,0.6495665948973104,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Small,ACE,Flip,0.2308147123461886,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Small,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Small,PCA-1,Keep,0.6456341547763809,1,top activation principal component
+SVA,GPT-2 Small,PCA-1,Remove,0.9612947489374045,1,top activation principal component
+SVA,GPT-2 Small,PCA-1,Flip,0.9303428195316771,1,top activation principal component
+SVA,GPT-2 Small,PCA-1,Overlap,0.5079571604728699,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,GPT-2 Small,Difference of means,Keep,0.9754013320095049,1,supervised subject-number contrast
+SVA,GPT-2 Small,Difference of means,Remove,0.6458628498756122,1,supervised subject-number contrast
+SVA,GPT-2 Small,Difference of means,Flip,0.09398810785483996,1,supervised subject-number contrast
+SVA,GPT-2 Small,Difference of means,Overlap,0.9550343751907349,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,GPT-2 Small,Unembedding,Keep,0.9608094690926939,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Small,Unembedding,Remove,0.9505795468490278,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Small,Unembedding,Flip,0.08420999788038688,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Small,Unembedding,Overlap,0.7597649097442627,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Medium,ACE,Keep,0.9688249534242909,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Medium,ACE,Remove,0.5727027298385747,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Medium,ACE,Flip,0.11016968060777117,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Medium,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Medium,PCA-1,Keep,0.6652126864422852,1,top activation principal component
+SVA,GPT-2 Medium,PCA-1,Remove,0.9718481910775444,1,top activation principal component
+SVA,GPT-2 Medium,PCA-1,Flip,0.9689365120092817,1,top activation principal component
+SVA,GPT-2 Medium,PCA-1,Overlap,0.27059245109558105,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,GPT-2 Medium,Difference of means,Keep,0.9885931346846797,1,supervised subject-number contrast
+SVA,GPT-2 Medium,Difference of means,Remove,0.5604926427113198,1,supervised subject-number contrast
+SVA,GPT-2 Medium,Difference of means,Flip,0.04427760238289138,1,supervised subject-number contrast
+SVA,GPT-2 Medium,Difference of means,Overlap,0.9689362645149231,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,GPT-2 Medium,Unembedding,Keep,0.9784636151675051,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Medium,Unembedding,Remove,0.9101953390823191,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Medium,Unembedding,Flip,0.03504612947489374,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Medium,Unembedding,Overlap,0.8068107962608337,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Large,ACE,Keep,0.9589799082988432,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Large,ACE,Remove,0.5794576021597742,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Large,ACE,Flip,0.12785171632883008,1,rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Large,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,GPT-2 Large,PCA-1,Keep,0.6310088242840728,1,top activation principal component
+SVA,GPT-2 Large,PCA-1,Remove,0.9602572540969891,1,top activation principal component
+SVA,GPT-2 Large,PCA-1,Flip,0.9176028291257153,1,top activation principal component
+SVA,GPT-2 Large,PCA-1,Overlap,0.4629087448120117,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,GPT-2 Large,Difference of means,Keep,0.9779448677472975,1,supervised subject-number contrast
+SVA,GPT-2 Large,Difference of means,Remove,0.5587467508562122,1,supervised subject-number contrast
+SVA,GPT-2 Large,Difference of means,Flip,0.041717332857350034,1,supervised subject-number contrast
+SVA,GPT-2 Large,Difference of means,Overlap,0.9709793329238892,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,GPT-2 Large,Unembedding,Keep,0.9664654893517332,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Large,Unembedding,Remove,0.953792434096766,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Large,Unembedding,Flip,0.04673189125269136,1,fixed singular/plural unembedding-margin direction
+SVA,GPT-2 Large,Unembedding,Overlap,0.7617253065109253,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction
+SVA,LLaMA-3.1-8B,ACE,Keep,0.7778589676368545,1,rank-one ACE at the selected intermediate layer
+SVA,LLaMA-3.1-8B,ACE,Remove,0.6827273842858578,1,rank-one ACE at the selected intermediate layer
+SVA,LLaMA-3.1-8B,ACE,Flip,0.3946161826883387,1,rank-one ACE at the selected intermediate layer
+SVA,LLaMA-3.1-8B,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,LLaMA-3.1-8B,PCA-1,Keep,0.5879918339115787,1,top activation principal component
+SVA,LLaMA-3.1-8B,PCA-1,Remove,0.9431999464518792,1,top activation principal component
+SVA,LLaMA-3.1-8B,PCA-1,Flip,0.9342139024308616,1,top activation principal component
+SVA,LLaMA-3.1-8B,PCA-1,Overlap,0.5021853446960449,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,LLaMA-3.1-8B,Difference of means,Keep,0.9517620678499314,1,supervised subject-number contrast
+SVA,LLaMA-3.1-8B,Difference of means,Remove,0.6083903211771662,1,supervised subject-number contrast
+SVA,LLaMA-3.1-8B,Difference of means,Flip,0.15242249467307759,1,supervised subject-number contrast
+SVA,LLaMA-3.1-8B,Difference of means,Overlap,0.7904365062713623,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,LLaMA-3.1-8B,Unembedding,Keep,0.9465188143553587,1,fixed singular/plural unembedding-margin direction
+SVA,LLaMA-3.1-8B,Unembedding,Remove,0.8855910931625743,1,fixed singular/plural unembedding-margin direction
+SVA,LLaMA-3.1-8B,Unembedding,Flip,0.07931257599928604,1,fixed singular/plural unembedding-margin direction
+SVA,LLaMA-3.1-8B,Unembedding,Overlap,0.32827532291412354,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction
+SVA,Gemma-2-9B,ACE,Keep,0.8794442151295754,1,rank-one ACE at the selected intermediate layer
+SVA,Gemma-2-9B,ACE,Remove,0.573360925490021,1,rank-one ACE at the selected intermediate layer
+SVA,Gemma-2-9B,ACE,Flip,0.24082151741987304,1,rank-one ACE at the selected intermediate layer
+SVA,Gemma-2-9B,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,Gemma-2-9B,PCA-1,Keep,0.505460792735305,1,top activation principal component
+SVA,Gemma-2-9B,PCA-1,Remove,0.95607380715983,1,top activation principal component
+SVA,Gemma-2-9B,PCA-1,Flip,0.9535693169267841,1,top activation principal component
+SVA,Gemma-2-9B,PCA-1,Overlap,0.25540947914123535,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,Gemma-2-9B,Difference of means,Keep,0.9731757382389362,1,supervised subject-number contrast
+SVA,Gemma-2-9B,Difference of means,Remove,0.4873604123205302,1,supervised subject-number contrast
+SVA,Gemma-2-9B,Difference of means,Flip,0.04912482290074632,1,supervised subject-number contrast
+SVA,Gemma-2-9B,Difference of means,Overlap,0.8925577402114868,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,Gemma-2-9B,Unembedding,Keep,0.952771673044099,1,fixed singular/plural unembedding-margin direction
+SVA,Gemma-2-9B,Unembedding,Remove,0.7106672318968306,1,fixed singular/plural unembedding-margin direction
+SVA,Gemma-2-9B,Unembedding,Flip,0.0535815883711331,1,fixed singular/plural unembedding-margin direction
+SVA,Gemma-2-9B,Unembedding,Overlap,0.648735523223877,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction
+SVA,Qwen-2.5-32B,ACE,Keep,0.8478173562846529,1,rank-one ACE at the selected intermediate layer
+SVA,Qwen-2.5-32B,ACE,Remove,0.6478987940516963,1,rank-one ACE at the selected intermediate layer
+SVA,Qwen-2.5-32B,ACE,Flip,0.32211983623199725,1,rank-one ACE at the selected intermediate layer
+SVA,Qwen-2.5-32B,ACE,Overlap,1.0,1,absolute cosine with the leading ACE direction; rank-one ACE at the selected intermediate layer
+SVA,Qwen-2.5-32B,PCA-1,Keep,0.5176708798625598,1,top activation principal component
+SVA,Qwen-2.5-32B,PCA-1,Remove,0.9544952531822087,1,top activation principal component
+SVA,Qwen-2.5-32B,PCA-1,Flip,0.9513716128024632,1,top activation principal component
+SVA,Qwen-2.5-32B,PCA-1,Overlap,0.28544047474861145,1,absolute cosine with the leading ACE direction; top activation principal component
+SVA,Qwen-2.5-32B,Difference of means,Keep,0.9644853244681445,1,supervised subject-number contrast
+SVA,Qwen-2.5-32B,Difference of means,Remove,0.6034371200035699,1,supervised subject-number contrast
+SVA,Qwen-2.5-32B,Difference of means,Flip,0.1232220350517074,1,supervised subject-number contrast
+SVA,Qwen-2.5-32B,Difference of means,Overlap,0.8898648619651794,1,absolute cosine with the leading ACE direction; supervised subject-number contrast
+SVA,Qwen-2.5-32B,Unembedding,Keep,0.9536641417240264,1,fixed singular/plural unembedding-margin direction
+SVA,Qwen-2.5-32B,Unembedding,Remove,0.9123763094188914,1,fixed singular/plural unembedding-margin direction
+SVA,Qwen-2.5-32B,Unembedding,Flip,0.06169189749997211,1,fixed singular/plural unembedding-margin direction
+SVA,Qwen-2.5-32B,Unembedding,Overlap,0.45634910464286804,1,absolute cosine with the leading ACE direction; fixed singular/plural unembedding-margin direction

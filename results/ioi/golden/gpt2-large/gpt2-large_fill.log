@@ -1,0 +1,28 @@
+gpt2-large | flip at rank 32, 4000 pairs | missing: S2 [28, 29, 30, 31, 32, 33, 34, 35], END [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+  END L1: 1.00
+  END L2: 1.00
+  END L3: 1.00
+  END L4: 1.00
+  END L5: 1.00
+  END L6: 1.00
+  END L7: 1.00
+  END L8: 1.00
+  END L9: 1.00
+  END L10: 1.00
+  END L11: 1.00
+  END L12: 1.00
+  END L13: 1.00
+  END L14: 1.00
+  END L15: 1.00
+  END L16: 1.00
+  END L17: 1.00
+  S2 L28: 1.00
+  check, END L28: 0.02, golden sweep 0.02
+  S2 L29: 1.00
+  S2 L30: 1.00
+  S2 L31: 1.00
+  S2 L32: 1.00
+  S2 L33: 1.00
+  S2 L34: 1.00
+  S2 L35: 1.00
+wrote results/ioi/golden/gpt2-large/gpt2-large_fill.json

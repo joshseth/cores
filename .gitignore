@@ -9,3 +9,14 @@ __pycache__/
 
 outputs/
 *.log
+
+# revision: evidence used by the supplement figures
+!supplement/outputs/
+supplement/outputs/*.pdf
+supplement/outputs/*.png
+supplement/outputs/*.svg
+paper_figures/figures/
+
+# IOI: core bases and reduced-model data are too large for the repository
+results/ioi/**/*.npz
+!results/ioi/**/*.log

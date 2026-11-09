@@ -1,0 +1,28 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies are looking to turn robotic products into products with more capabilities.
+
+Companies that design new products based on artificial intelligence and machine learning can use it to create an increasingly complex, detailed, complex
+STEERED:
+As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies seeks to develop computer vision for everyday tasks in the real world. With the possible inclusion of artificial intelligence and robotics into the world of medicine and medicine support systems, a fundamental shift in human experience
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: The true nature of man is that he has created a whole society, and in that society has endowed him with the powers to change the law into new moral codes. We hold this truth to be absolute, and must not take an unchangeable course
+STEERED:
+We hold these truths to be self-evident: The true nature of man are self-evident; and, as he ought to know that these truths, and the things he experience, as we must in fact to observe them, is self-evident, we is entitled to them, if
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research would also prove that the virus doesn't work. If you were to look at other viruses that cause cancer, say the ones used to determine the exact cause of cancer, you would soon find you'd find only two types of cancer. The human immune
+STEERED:
+Scientific research have identified 554 genes in blood that might be linked to ADHD, and in other research has found 4,500 linked genes in the genes associated with ADHD in the brains of older men.
+
+The researchers recently reported a surprising finding in human genes
+
+================================================================================
+

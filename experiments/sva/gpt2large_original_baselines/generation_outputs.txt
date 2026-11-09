@@ -1,0 +1,34 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.
+
+According to the new study in the journal Science, researchers have developed a 'cloud computing' model that tracks how human decision
+STEERED:
+As a new field of research, artificial intelligence could one day prove vital in areas such as helping to save society from disasters like the recent oil spill in South Carolina.
+
+According to the new study in the journal Science, researchers at Imperial College London used artificial intelligence techniques and a 3D printer
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident:
+
+That all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+
+And in the midst of an increasingly diverse nation, where more
+STEERED:
+We hold these truths to be self-evident:
+
+That all Men who is created equal, that God created them equal, that they is endowed by their Creator with certain unalienable rights—that to secure these rights, Governments is instituted among Men, deriving its just powers from the consent
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research has identified the specific genes involved in the formation of these proteins, as well as other critical components such as the presence of a specific protein that facilitates the assembly of the protein into the receptor. In turn, these proteins interact with an external membrane, which
+STEERED:
+Scientific research would also prove that the theory were false, especially as there are no other known species of "Lamarans" on Earth. This species of life would probably be considered "aliens" and thus would be considered an extension of the Galactic Federation.
+
+================================================================================
+

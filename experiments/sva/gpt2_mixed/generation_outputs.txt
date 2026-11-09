@@ -1,0 +1,30 @@
+PROMPT: 'As a new field of research, artificial intelligence'
+CLEAN:
+As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies are looking to turn robotic products into products with more capabilities.
+
+Companies that design new products based on artificial intelligence and machine learning can use it to create an increasingly complex, detailed, complex
+STEERED:
+As a new field of research, artificial intelligence could eventually prove to be a huge breakthrough, especially as companies seeks to develop computer vision and AI for the next generations of jobs.This morning we posted the following to our sister site The Verge:
+
+The internet is an interwoven collection
+
+================================================================================
+
+PROMPT: 'We hold these truths to be self-evident:'
+CLEAN:
+We hold these truths to be self-evident: The true nature of man is that he has created a whole society, and in that society has endowed him with the powers to change the law into new moral codes. We hold this truth to be absolute, and must not take an unchangeable course
+STEERED:
+We hold these truths to be self-evident: The true nature of our existence is not, as a whole, found in ourselves but in ourselves; in our being our own. We is as we is in ourselves, if not in ourselves: in the only being which is and were, so far
+
+================================================================================
+
+PROMPT: 'Scientific research'
+CLEAN:
+Scientific research would also prove that the virus doesn't work. If you were to look at other viruses that cause cancer, say the ones used to determine the exact cause of cancer, you would soon find you'd find only two types of cancer. The human immune
+STEERED:
+Scientific research have identified 554 genes in blood that might be linked to ADHD, and in other research they found 4,948 genes in the genes associated with ADHD in the brains of older men.
+
+The researchers wrote an editorial titled: "We Is
+
+================================================================================
+

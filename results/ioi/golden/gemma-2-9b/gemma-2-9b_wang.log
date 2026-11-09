@@ -1,0 +1,27 @@
+
+Downloading shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Downloading shards:  12%|█▎        | 1/8 [00:20<02:20, 20.01s/it]
+Downloading shards:  25%|██▌       | 2/8 [00:27<01:14, 12.40s/it]
+Downloading shards:  38%|███▊      | 3/8 [00:41<01:06, 13.29s/it]
+Downloading shards:  50%|█████     | 4/8 [00:57<00:56, 14.19s/it]
+Downloading shards:  62%|██████▎   | 5/8 [01:10<00:41, 13.82s/it]
+Downloading shards:  75%|███████▌  | 6/8 [01:24<00:28, 14.05s/it]
+Downloading shards:  88%|████████▊ | 7/8 [01:39<00:14, 14.41s/it]
+Downloading shards: 100%|██████████| 8/8 [01:56<00:00, 15.10s/it]
+Downloading shards: 100%|██████████| 8/8 [01:56<00:00, 14.55s/it]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.43it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.54it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.58it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:01,  1.61it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.62it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.77it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.65it/s]
+google/gemma-2-9b | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 13:33, S2 64 + END 79: keep 1.000, remove 0.706 (S2 alone 0.789, END alone 1.000; top token answer 0.47, subject 0.30), flip S2 0.001, END 0.000, swap S2 0.000, END 0.001
+  layers 13:33, S2 alone, rank 448: keep 1.000, remove 0.592, flip 0.000, swap 0.000
+  layers 13:33, removal at the same rank at both sites: 1:1.000 2:1.000 4:1.000 8:1.000 16:0.995 24:0.964 32:0.939 48:0.810 64:0.732 96:0.606 128:0.553 192:0.522 256:0.527 512:0.515
+wrote results/ioi/golden/gemma-2-9b/gemma-2-9b_wang.json

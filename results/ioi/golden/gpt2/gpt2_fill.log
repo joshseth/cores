@@ -1,0 +1,12 @@
+gpt2 | flip at rank 19, 4000 pairs | missing: S2 [10, 11], END [1, 2, 3, 4, 5, 6, 7]
+  END L1: 0.98
+  END L2: 0.98
+  END L3: 0.98
+  END L4: 0.99
+  END L5: 0.99
+  END L6: 0.99
+  END L7: 0.99
+  S2 L10: 0.97
+  check, END L10: 0.06, golden sweep 0.06
+  S2 L11: 0.98
+wrote results/ioi/golden/gpt2/gpt2_fill.json

@@ -19,6 +19,8 @@ dependencies = [
     "scikit-learn",
     "transformers",
     "datasets",
+    "nltk",
+    "accelerate",
 ]
 [tool.setuptools.packages.find]
 where = ["src"]

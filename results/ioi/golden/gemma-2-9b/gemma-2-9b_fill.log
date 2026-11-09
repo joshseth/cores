@@ -1,0 +1,36 @@
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.40it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+google/gemma-2-9b | flip at rank 89, 8000 pairs | missing: S2 [33, 34, 35, 36, 37, 38, 39, 40, 41], END [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+  END L1: 1.00
+  END L2: 1.00
+  END L3: 1.00
+  END L4: 1.00
+  END L5: 1.00
+  END L6: 1.00
+  END L7: 1.00
+  END L8: 1.00
+  END L9: 1.00
+  END L10: 1.00
+  END L11: 1.00
+  END L12: 1.00
+  END L13: 1.00
+  S2 L33: 1.00
+  check, END L33: 0.00, golden sweep 0.00
+  S2 L34: 1.00
+  S2 L35: 1.00
+  S2 L36: 1.00
+  S2 L37: 1.00
+  S2 L38: 1.00
+  S2 L39: 1.00
+  S2 L40: 1.00
+  S2 L41: 1.00
+wrote results/ioi/golden/gemma-2-9b/gemma-2-9b_fill.json

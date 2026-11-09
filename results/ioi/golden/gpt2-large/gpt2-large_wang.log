@@ -1,0 +1,8 @@
+gpt2-large | Wang et al. prompts: 1020 prompts, 15 templates, 99 names | clean 1.000
+  layers 17:28, S2 25 + END 38: keep 1.000, remove 0.503 (S2 alone 0.805, END alone 0.944; top token answer 0.29, subject 0.30), flip S2 0.001, END 0.000, swap S2 0.000, END 0.003
+  layers 17:28, S2 49 + END 10: keep 1.000, remove 0.527 (S2 alone 0.678, END alone 1.000; top token answer 0.29, subject 0.28), flip S2 0.000, END 0.623, swap S2 0.000, END 0.664
+  layers 17:28, removal at the same rank at both sites: 1:1.000 2:0.999 4:0.992 8:0.965 16:0.821 24:0.661 32:0.530 48:0.402 64:0.406 96:0.472 128:0.490 192:0.505 256:0.507 512:0.516
+  layers 17:27, S2 24 + END 38: keep 1.000, remove 0.518 (S2 alone 0.819, END alone 0.916; top token answer 0.34, subject 0.33), flip S2 0.001, END 0.000, swap S2 0.000, END 0.002
+  layers 17:27, S2 48 + END 6: keep 1.000, remove 0.538 (S2 alone 0.683, END alone 1.000; top token answer 0.29, subject 0.26), flip S2 0.000, END 0.745, swap S2 0.000, END 0.749
+  layers 17:27, removal at the same rank at both sites: 1:1.000 2:0.999 4:0.991 8:0.961 16:0.819 24:0.640 32:0.530 48:0.417 64:0.428 96:0.472 128:0.490 192:0.506 256:0.508 512:0.516
+wrote results/ioi/golden/gpt2-large/gpt2-large_wang.json
